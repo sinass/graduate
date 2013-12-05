@@ -1,0 +1,5 @@
+ensat_graduate:
+    resource: "@EnsatGraduateBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
