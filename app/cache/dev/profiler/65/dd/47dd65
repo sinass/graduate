@@ -1,0 +1,1648 @@
+a:8:{s:5:"token";s:6:"47dd65";s:6:"parent";N;s:8:"children";a:0:{}s:4:"data";a:11:{s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":1749:{a:16:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"47dd65";s:15:"symfony_version";s:5:"2.3.7";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:5:"5.4.3";s:14:"xdebug_enabled";b:1;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:0;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:0;s:7:"bundles";a:12:{s:15:"FrameworkBundle";s:78:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle";s:14:"SecurityBundle";s:77:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle";s:10:"TwigBundle";s:73:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle";s:13:"MonologBundle";s:79:"C:\wamp\www\graduate\vendor\symfony\monolog-bundle\Symfony\Bundle\MonologBundle";s:17:"SwiftmailerBundle";s:87:"C:\wamp\www\graduate\vendor\symfony\swiftmailer-bundle\Symfony\Bundle\SwiftmailerBundle";s:13:"AsseticBundle";s:79:"C:\wamp\www\graduate\vendor\symfony\assetic-bundle\Symfony\Bundle\AsseticBundle";s:14:"DoctrineBundle";s:83:"C:\wamp\www\graduate\vendor\doctrine\doctrine-bundle\Doctrine\Bundle\DoctrineBundle";s:26:"SensioFrameworkExtraBundle";s:92:"C:\wamp\www\graduate\vendor\sensio\framework-extra-bundle\Sensio\Bundle\FrameworkExtraBundle";s:19:"EnsatGraduateBundle";s:45:"C:\wamp\www\graduate\src\Ensat\GraduateBundle";s:17:"WebProfilerBundle";s:80:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle";s:24:"SensioDistributionBundle";s:87:"C:\wamp\www\graduate\vendor\sensio\distribution-bundle\Sensio\Bundle\DistributionBundle";s:21:"SensioGeneratorBundle";s:81:"C:\wamp\www\graduate\vendor\sensio\generator-bundle\Sensio\Bundle\GeneratorBundle";}s:9:"sapi_name";s:14:"apache2handler";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":14838:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:0:{}s:15:"request_request";a:0:{}s:15:"request_headers";a:9:{s:4:"host";a:1:{i:0;s:14:"ensat.graduate";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:13:"cache-control";a:1:{i:0;s:9:"max-age=0";}s:6:"accept";a:1:{i:0;s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";}s:10:"user-agent";a:1:{i:0;s:108:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36";}s:15:"accept-encoding";a:1:{i:0;s:17:"gzip,deflate,sdch";}s:15:"accept-language";a:1:{i:0;s:35:"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4";}s:6:"cookie";a:1:{i:0;s:36:"PHPSESSID=4upcom1jko7t405vues4demah7";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:37:{s:9:"HTTP_HOST";s:14:"ensat.graduate";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:108:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:36:"PHPSESSID=4upcom1jko7t405vues4demah7";s:4:"PATH";s:731:"C:\Program Files (x86)\MiKTeX 2.9\miktex\bin;D:\app\Sinayoko\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Java\jre7\bin\java.exe;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\wamp\bin\php\php5.4.3\;";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:58:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PHP";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:30:"Apache/2.4.2 (Win64) PHP/5.4.3";s:11:"SERVER_NAME";s:14:"ensat.graduate";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:24:"C:/wamp/www/graduate/web";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:24:"C:/wamp/www/graduate/web";s:12:"SERVER_ADMIN";s:15:"admin@localhost";s:15:"SCRIPT_FILENAME";s:36:"C:/wamp/www/graduate/web/app_dev.php";s:11:"REMOTE_PORT";s:4:"8469";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:25:"/app_dev.php/hello/sinass";s:11:"SCRIPT_NAME";s:12:"/app_dev.php";s:9:"PATH_INFO";s:13:"/hello/sinass";s:15:"PATH_TRANSLATED";s:24:"redirect:\app.php\sinass";s:8:"PHP_SELF";s:25:"/app_dev.php/hello/sinass";s:18:"REQUEST_TIME_FLOAT";d:1386552730.690000057220458984375;s:12:"REQUEST_TIME";i:1386552730;}s:15:"request_cookies";a:1:{s:9:"PHPSESSID";s:26:"4upcom1jko7t405vues4demah7";}s:18:"request_attributes";a:8:{s:11:"_controller";s:62:"Ensat\GraduateBundle\Controller\DefaultController::indexAction";s:4:"name";s:6:"sinass";s:6:"_route";s:28:"ensat_graduate_default_index";s:13:"_route_params";a:1:{s:4:"name";s:6:"sinass";}s:9:"_template";s:67:"Object(Symfony\Bundle\FrameworkBundle\Templating\TemplateReference)";s:14:"_template_vars";s:7:"Array()";s:20:"_template_streamable";s:5:"false";s:22:"_template_default_vars";s:16:"Array(0 => name)";}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Mon, 09 Dec 2013 01:32:12 GMT";}s:13:"x-debug-token";a:1:{i:0;s:6:"47dd65";}s:19:"x-chromelogger-data";a:1:{i:0;s:10208:"eyJ2ZXJzaW9uIjoiNC4wIiwiY29sdW1ucyI6WyJsYWJlbCIsImxvZyIsImJhY2t0cmFjZSIsInR5cGUiXSwicm93cyI6W1sicmVxdWVzdCIsIk1hdGNoZWQgcm91dGUgXCJlbnNhdF9ncmFkdWF0ZV9kZWZhdWx0X2luZGV4XCIgKHBhcmFtZXRlcnM6IFwiX2NvbnRyb2xsZXJcIjogXCJFbnNhdFxcR3JhZHVhdGVCdW5kbGVcXENvbnRyb2xsZXJcXERlZmF1bHRDb250cm9sbGVyOjppbmRleEFjdGlvblwiLCBcIm5hbWVcIjogXCJzaW5hc3NcIiwgXCJfcm91dGVcIjogXCJlbnNhdF9ncmFkdWF0ZV9kZWZhdWx0X2luZGV4XCIpIiwidW5rbm93biIsImluZm8iXSxbInJlcXVlc3QiLHsibWVzc2FnZSI6IlVuY2F1Z2h0IFBIUCBFeGNlcHRpb24gVHdpZ19FcnJvcl9TeW50YXg6IFwiVW5leHBlY3RlZCBjaGFyYWN0ZXIgXCInXCIgaW4gXCJDOlwvd2FtcFwvd3d3XC9ncmFkdWF0ZVwvYXBwXC9SZXNvdXJjZXNcXHZpZXdzXC9iYXNlLmh0bWwudHdpZ1wiIGF0IGxpbmUgNTQ0XCIgYXQgQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXHZlbmRvclxcdHdpZ1xcdHdpZ1xcbGliXFxUd2lnXFxMZXhlci5waHAgbGluZSAyODIiLCJjb250ZXh0Ijp7ImV4Y2VwdGlvbiI6eyJ4ZGVidWdfbWVzc2FnZSI6Ijx0cj48dGggYWxpZ249J2xlZnQnIGJnY29sb3I9JyNmNTc5MDAnIGNvbHNwYW49XCI1XCI+PHNwYW4gc3R5bGU9J2JhY2tncm91bmQtY29sb3I6ICNjYzAwMDA7IGNvbG9yOiAjZmNlOTRmOyBmb250LXNpemU6IHgtbGFyZ2U7Jz4oICEgKTxcL3NwYW4+IFR3aWdfRXJyb3JfU3ludGF4OiBVbmV4cGVjdGVkIGNoYXJhY3RlciBcIidcIiBpbiBcIkM6XC93YW1wXC93d3dcL2dyYWR1YXRlXC9hcHBcL1Jlc291cmNlc1xcdmlld3NcL2Jhc2UuaHRtbC50d2lnXCIgYXQgbGluZSA1NDQgaW4gQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXHZlbmRvclxcdHdpZ1xcdHdpZ1xcbGliXFxUd2lnXFxMZXhlci5waHAgb24gbGluZSA8aT4yODI8XC9pPjxcL3RoPjxcL3RyPlxuPHRyPjx0aCBhbGlnbj0nbGVmdCcgYmdjb2xvcj0nI2U5Yjk2ZScgY29sc3Bhbj0nNSc+Q2FsbCBTdGFjazxcL3RoPjxcL3RyPlxuPHRyPjx0aCBhbGlnbj0nY2VudGVyJyBiZ2NvbG9yPScjZWVlZWVjJz4jPFwvdGg+PHRoIGFsaWduPSdsZWZ0JyBiZ2NvbG9yPScjZWVlZWVjJz5UaW1lPFwvdGg+PHRoIGFsaWduPSdsZWZ0JyBiZ2NvbG9yPScjZWVlZWVjJz5NZW1vcnk8XC90aD48dGggYWxpZ249J2xlZnQnIGJnY29sb3I9JyNlZWVlZWMnPkZ1bmN0aW9uPFwvdGg+PHRoIGFsaWduPSdsZWZ0JyBiZ2NvbG9yPScjZWVlZWVjJz5Mb2NhdGlvbjxcL3RoPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4xPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuMDAxNTxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjI1NTIwMDxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJz57bWFpbn0oICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcd2ViXFxhcHBfZGV2LnBocCcgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXGFwcF9kZXYucGhwPGI+OjxcL2I+MDxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4yPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuMDQ2NjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjE4NzE0MDA8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxLZXJuZWwtPmhhbmRsZSggICk8XC90ZD48dGQgdGl0bGU9J0M6XFx3YW1wXFx3d3dcXGdyYWR1YXRlXFx3ZWJcXGFwcF9kZXYucGhwJyBiZ2NvbG9yPScjZWVlZWVjJz4uLlxcYXBwX2Rldi5waHA8Yj46PFwvYj4yODxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4zPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuNDQ3NjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjc0NTA2NTY8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxEZXBlbmRlbmN5SW5qZWN0aW9uXFxDb250YWluZXJBd2FyZUh0dHBLZXJuZWwtPmhhbmRsZSggICk8XC90ZD48dGQgdGl0bGU9J0M6XFx3YW1wXFx3d3dcXGdyYWR1YXRlXFxhcHBcXGJvb3RzdHJhcC5waHAuY2FjaGUnIGJnY29sb3I9JyNlZWVlZWMnPi4uXFxib290c3RyYXAucGhwLmNhY2hlPGI+OjxcL2I+MjI0ODxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz40PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuNDQ3NzxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjc0NTI4MzI8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxIdHRwS2VybmVsLT5oYW5kbGUoICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcYXBwXFxib290c3RyYXAucGhwLmNhY2hlJyBiZ2NvbG9yPScjZWVlZWVjJz4uLlxcYm9vdHN0cmFwLnBocC5jYWNoZTxiPjo8XC9iPjI5NDY8XC90ZD48XC90cj5cbjx0cj48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+NTxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4wLjQ0Nzc8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J3JpZ2h0Jz43NDUyODk2PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnPlN5bWZvbnlcXENvbXBvbmVudFxcSHR0cEtlcm5lbFxcSHR0cEtlcm5lbC0+aGFuZGxlUmF3KCAgKTxcL3RkPjx0ZCB0aXRsZT0nQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXGFwcFxcYm9vdHN0cmFwLnBocC5jYWNoZScgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXGJvb3RzdHJhcC5waHAuY2FjaGU8Yj46PFwvYj4yODE3PFwvdGQ+PFwvdHI+XG48dHI+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjY8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MC45Nzg4PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdyaWdodCc+MTI3NDE5NTI8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxEZWJ1Z1xcVHJhY2VhYmxlRXZlbnREaXNwYXRjaGVyLT5kaXNwYXRjaCggICk8XC90ZD48dGQgdGl0bGU9J0M6XFx3YW1wXFx3d3dcXGdyYWR1YXRlXFxhcHBcXGJvb3RzdHJhcC5waHAuY2FjaGUnIGJnY29sb3I9JyNlZWVlZWMnPi4uXFxib290c3RyYXAucGhwLmNhY2hlPGI+OjxcL2I+Mjg0NjxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz43PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuOTc5MjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjEyNzQ2MDY0PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnPlN5bWZvbnlcXENvbXBvbmVudFxcRXZlbnREaXNwYXRjaGVyXFxDb250YWluZXJBd2FyZUV2ZW50RGlzcGF0Y2hlci0+ZGlzcGF0Y2goICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcdmVuZG9yXFxzeW1mb255XFxzeW1mb255XFxzcmNcXFN5bWZvbnlcXENvbXBvbmVudFxcSHR0cEtlcm5lbFxcRGVidWdcXFRyYWNlYWJsZUV2ZW50RGlzcGF0Y2hlci5waHAnIGJnY29sb3I9JyNlZWVlZWMnPi4uXFxUcmFjZWFibGVFdmVudERpc3BhdGNoZXIucGhwPGI+OjxcL2I+MTM5PFwvdGQ+PFwvdHI+XG48dHI+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjg8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MC45NzkyPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdyaWdodCc+MTI3NDYwNjQ8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxFdmVudERpc3BhdGNoZXJcXEV2ZW50RGlzcGF0Y2hlci0+ZGlzcGF0Y2goICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcYXBwXFxjYWNoZVxcZGV2XFxjbGFzc2VzLnBocCcgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXGNsYXNzZXMucGhwPGI+OjxcL2I+MTc2MjxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz45PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuOTc5MjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjEyNzQ2MDMyPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnPlN5bWZvbnlcXENvbXBvbmVudFxcRXZlbnREaXNwYXRjaGVyXFxFdmVudERpc3BhdGNoZXItPmRvRGlzcGF0Y2goICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcYXBwXFxjYWNoZVxcZGV2XFxjbGFzc2VzLnBocCcgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXGNsYXNzZXMucGhwPGI+OjxcL2I+MTU5ODxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4xMDxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4wLjk3OTI8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J3JpZ2h0Jz4xMjc0NjM2ODxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJz48YSBocmVmPSdodHRwOlwvXC93d3cucGhwLm5ldFwvY2FsbF91c2VyX2Z1bmMnIHRhcmdldD0nX25ldyc+Y2FsbF91c2VyX2Z1bmM8XC9hPlxuKCAgKTxcL3RkPjx0ZCB0aXRsZT0nQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXGFwcFxcY2FjaGVcXGRldlxcY2xhc3Nlcy5waHAnIGJnY29sb3I9JyNlZWVlZWMnPi4uXFxjbGFzc2VzLnBocDxiPjo8XC9iPjE2NjU8XC90ZD48XC90cj5cbjx0cj48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MTE8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MC45NzkyPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdyaWdodCc+MTI3NDY0MDA8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxEZWJ1Z1xcVHJhY2VhYmxlRXZlbnREaXNwYXRjaGVyLT5TeW1mb255XFxDb21wb25lbnRcXEh0dHBLZXJuZWxcXERlYnVnXFx7Y2xvc3VyZX0oICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcYXBwXFxjYWNoZVxcZGV2XFxjbGFzc2VzLnBocCcgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXGNsYXNzZXMucGhwPGI+OjxcL2I+MTY2NTxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4xMjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4wLjk4MDI8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J3JpZ2h0Jz4xMjc1MDM0NDxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJz48YSBocmVmPSdodHRwOlwvXC93d3cucGhwLm5ldFwvY2FsbF91c2VyX2Z1bmMnIHRhcmdldD0nX25ldyc+Y2FsbF91c2VyX2Z1bmM8XC9hPlxuKCAgKTxcL3RkPjx0ZCB0aXRsZT0nQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXHZlbmRvclxcc3ltZm9ueVxcc3ltZm9ueVxcc3JjXFxTeW1mb255XFxDb21wb25lbnRcXEh0dHBLZXJuZWxcXERlYnVnXFxUcmFjZWFibGVFdmVudERpc3BhdGNoZXIucGhwJyBiZ2NvbG9yPScjZWVlZWVjJz4uLlxcVHJhY2VhYmxlRXZlbnREaXNwYXRjaGVyLnBocDxiPjo8XC9iPjQ1MDxcL3RkPjxcL3RyPlxuPHRyPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4xMzxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0nY2VudGVyJz4wLjk4MDI8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J3JpZ2h0Jz4xMjc1MDM3NjxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJz5TZW5zaW9cXEJ1bmRsZVxcRnJhbWV3b3JrRXh0cmFCdW5kbGVcXEV2ZW50TGlzdGVuZXJcXFRlbXBsYXRlTGlzdGVuZXItPm9uS2VybmVsVmlldyggICk8XC90ZD48dGQgdGl0bGU9J0M6XFx3YW1wXFx3d3dcXGdyYWR1YXRlXFx2ZW5kb3JcXHN5bWZvbnlcXHN5bWZvbnlcXHNyY1xcU3ltZm9ueVxcQ29tcG9uZW50XFxIdHRwS2VybmVsXFxEZWJ1Z1xcVHJhY2VhYmxlRXZlbnREaXNwYXRjaGVyLnBocCcgYmdjb2xvcj0nI2VlZWVlYyc+Li5cXFRyYWNlYWJsZUV2ZW50RGlzcGF0Y2hlci5waHA8Yj46PFwvYj40NTA8XC90ZD48XC90cj5cbjx0cj48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MTQ8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MC45OTAxPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdyaWdodCc+MTI4MTgzNzY8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQnVuZGxlXFxUd2lnQnVuZGxlXFxUd2lnRW5naW5lLT5yZW5kZXJSZXNwb25zZSggICk8XC90ZD48dGQgdGl0bGU9J0M6XFx3YW1wXFx3d3dcXGdyYWR1YXRlXFxhcHBcXGNhY2hlXFxkZXZcXGNsYXNzZXMucGhwJyBiZ2NvbG9yPScjZWVlZWVjJz4uLlxcY2xhc3Nlcy5waHA8Yj46PFwvYj42MDkzPFwvdGQ+PFwvdHI+XG48dHI+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjE1PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdjZW50ZXInPjAuOTkwNDxcL3RkPjx0ZCBiZ2NvbG9yPScjZWVlZWVjJyBhbGlnbj0ncmlnaHQnPjEyODIyMzUyPFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnPlN5bWZvbnlcXEJ1bmRsZVxcVHdpZ0J1bmRsZVxcRGVidWdcXFRpbWVkVHdpZ0VuZ2luZS0+cmVuZGVyKCAgKTxcL3RkPjx0ZCB0aXRsZT0nQzpcXHdhbXBcXHd3d1xcZ3JhZHVhdGVcXHZlbmRvclxcc3ltZm9ueVxcc3ltZm9ueVxcc3JjXFxTeW1mb255XFxCdW5kbGVcXFR3aWdCdW5kbGVcXFR3aWdFbmdpbmUucGhwJyBiZ2NvbG9yPScjZWVlZWVjJz4uLlxcVHdpZ0VuZ2luZS5waHA8Yj46PFwvYj4xMDg8XC90ZD48XC90cj5cbjx0cj48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MTY8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYycgYWxpZ249J2NlbnRlcic+MC45OTA1PFwvdGQ+PHRkIGJnY29sb3I9JyNlZWVlZWMnIGFsaWduPSdyaWdodCc+MTI4MjMzMjA8XC90ZD48dGQgYmdjb2xvcj0nI2VlZWVlYyc+U3ltZm9ueVxcQnVuZGxlXFxUd2lnQnVuZGxlXFxUd2lnRW5naW5lLT5yZW5kZXIoICApPFwvdGQ+PHRkIHRpdGxlPSdDOlxcd2FtcFxcd3d3XFxncmFkdWF0ZVxcdmVuZG9yXFxzeW1mb255XFxzeW1mb255XFxzcmNcXFN5bWZvbnlcXEJ1bmRsZVxcVHdpZ0J1bmRsZVxcRGVidWdcXFRpbWVkVHdpZ0VuZ2luZS5waHAnIGJnY29sb3I9JyNlZWVlZWMnPi4uXFxUaW1lZFR3aWdFbmdpbmUucGhwPGI+OjxcL2I+NTI8XC90ZD48XC90cj5cbiJ9fX0sInVua25vd24iLCJlcnJvciJdXSwicmVxdWVzdF91cmkiOiJcL2FwcF9kZXYucGhwXC9oZWxsb1wvc2luYXNzIn0=";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}}s:16:"session_metadata";a:0:{}s:18:"session_attributes";a:0:{}s:7:"flashes";a:0:{}s:9:"path_info";s:13:"/hello/sinass";s:10:"controller";a:4:{s:5:"class";s:49:"Ensat\GraduateBundle\Controller\DefaultController";s:6:"method";s:11:"indexAction";s:4:"file";s:78:"C:\wamp\www\graduate\src\Ensat\GraduateBundle\Controller\DefaultController.php";s:4:"line";i:15;}s:6:"locale";s:2:"en";}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":105711:{a:1:{s:9:"exception";O:55:"Symfony\Component\HttpKernel\Exception\FlattenException":9:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:97:"Unexpected character "'" in "C:/wamp/www/graduate/app/Resources\views/base.html.twig" at line 544";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:26:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:56:"C:\wamp\www\graduate\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:282;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:13:"lexExpression";s:4:"file";s:56:"C:\wamp\www\graduate\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:214;s:4:"args";a:0:{}}i:2;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:6:"lexVar";s:4:"file";s:56:"C:\wamp\www\graduate\vendor\twig\twig\lib\Twig\Lexer.php";s:4:"line";i:113;s:4:"args";a:0:{}}i:3;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:2981;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:31157:"<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+        {% block stylesheets %}
+        <!-- Bootstrap framework -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap.min.css')}}" />
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap-responsive.min.css')}}" />
+        <!-- gebo blue theme-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/blue.css')}}" id="link_theme" />
+        <!-- breadcrumbs-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/css/BreadCrumb.css')}}" />
+        <!-- tooltips-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.css')}}" />
+        <!-- colorbox -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/colorbox/colorbox.css')}}" />    
+        <!-- code prettify -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/google-code-prettify/prettify.css')}}" />    
+        <!-- notifications -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/sticky/sticky.css')}}" />    
+        <!-- splashy icons -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/splashy/splashy.css')}}" />
+		<!-- flags -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/flags/flags.css')}}" />	
+		<!-- calendar -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/fullcalendar/fullcalendar_gebo.css')}}" />
+            
+        <!-- main styles -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/style.css')}}" />
+			
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+	
+        {% endblock %}
+    
+        <!-- Favicon -->
+            <link rel="shortcut icon" href="favicon.ico" />
+		
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/ie.css" />
+            <script src="js/ie/html5.js"></script>
+			<script src="js/ie/respond.min.js"></script>
+			<script src="lib/flot/excanvas.min.js"></script>
+        <![endif]-->
+		
+		<script>
+			//* hide all elements & show preloader
+			document.documentElement.className += 'js';
+		</script>
+    </head>
+    <body>
+		<div id="loading_layer" style="display:none"><img src="img/ajax_loader.gif" alt="" /></div>
+		<div class="style_switcher">
+			<div class="sepH_c">
+				<p>Colors:</p>
+				<div class="clearfix">
+					<a href="javascript:void(0)" class="style_item jQclr blue_theme style_active" title="blue">blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr dark_theme" title="dark">dark</a>
+					<a href="javascript:void(0)" class="style_item jQclr green_theme" title="green">green</a>
+					<a href="javascript:void(0)" class="style_item jQclr brown_theme" title="brown">brown</a>
+					<a href="javascript:void(0)" class="style_item jQclr eastern_blue_theme" title="eastern_blue">eastern blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr tamarillo_theme" title="tamarillo">tamarillo</a>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Backgrounds:</p>
+				<div class="clearfix">
+					<span class="style_item jQptrn style_active ptrn_def" title=""></span>
+					<span class="ssw_ptrn_a style_item jQptrn" title="ptrn_a"></span>
+					<span class="ssw_ptrn_b style_item jQptrn" title="ptrn_b"></span>
+					<span class="ssw_ptrn_c style_item jQptrn" title="ptrn_c"></span>
+					<span class="ssw_ptrn_d style_item jQptrn" title="ptrn_d"></span>
+					<span class="ssw_ptrn_e style_item jQptrn" title="ptrn_e"></span>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Layout:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fluid" value="" checked /> Fluid</label>
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fixed" value="gebo-fixed" /> Fixed</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Sidebar position:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_left" value="" checked /> Left</label>
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_right" value="sidebar_right" /> Right</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Show top menu on:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_click" value="" checked /> Click</label>
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_hover" value="menu_hover" /> Hover</label>
+				</div>
+			</div>
+			
+			<div class="gh_button-group">
+				<a href="" id="showCss" class="btn btn-primary btn-mini">Show CSS</a>
+				<a href="" id="resetDefault" class="btn btn-mini">Reset</a>
+			</div>
+			<div class="hide">
+				<ul id="ssw_styles">
+					<li class="small ssw_mbColor sepH_a" style="display:none">body {<span class="ssw_mColor sepH_a" style="display:none"> color: <span></span>;</span> <span class="ssw_bColor" style="display:none">background-color: <span></span> </span>}</li>
+					<li class="small ssw_lColor sepH_a" style="display:none">a { color: <span></span> }</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="maincontainer" class="clearfix">
+			<!-- header -->
+            <header>
+                <div class="navbar navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <div class="container-fluid">
+                            <a class="brand" href="dashboard.html"><i class="icon-home icon-white"></i> Gebo Admin</a>
+                            <ul class="nav user_menu pull-right">
+                                <li class="hidden-phone hidden-tablet">
+                                    <div class="nb_boxes clearfix">
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New messages">25 <i class="splashy-mail_light"></i></a>
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New tasks">10 <i class="splashy-calendar_week"></i></a>
+                                    </div>
+                                </li>
+								<li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle nav_condensed" data-toggle="dropdown"><i class="flag-gb"></i> <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="javascript:void(0)"><i class="flag-de"></i> Deutsch</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-fr"></i> Français</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-es"></i> Español</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-ru"></i> Pусский</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Johny Smith <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="user_profile.html">My Profile</a></li>
+										<li><a href="javascrip:void(0)">Another action</a></li>
+										<li class="divider"></li>
+										<li><a href="login.html">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+							<a data-target=".nav-collapse" data-toggle="collapse" class="btn_menu">
+								<span class="icon-align-justify icon-white"></span>
+							</a>
+                            <nav>
+                                <div class="nav-collapse">
+                                    <ul class="nav">
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-list-alt icon-white"></i> Forms <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="form_elements.html">Form elements</a></li>
+                                                <li><a href="form_extended.html">Extended form elements</a></li>
+                                                <li><a href="form_validation.html">Form Validation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-th icon-white"></i> Components <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="alerts_btns.html">Alerts & Buttons</a></li>
+                                                <li><a href="icons.html">Icons</a></li>
+                                                <li><a href="notifications.html">Notifications</a></li>
+                                                <li><a href="tables.html">Tables</a></li>
+												<li><a href="tables_more.html">Tables (more examples)</a></li>
+                                                <li><a href="tabs_accordion.html">Tabs & Accordion</a></li>
+                                                <li><a href="tooltips.html">Tooltips, Popovers</a></li>
+                                                <li><a href="typography.html">Typography</a></li>
+												<li><a href="widgets.html">Widget boxes</a></li>
+												<li class="dropdown">
+													<a href="">Sub menu <b class="caret-right"></b></a>
+													<ul class="dropdown-menu">
+														<li><a href="">Sub menu 1.1</a></li>
+														<li><a href="">Sub menu 1.2</a></li>
+														<li><a href="">Sub menu 1.3</a></li>
+														<li>
+															<a href="">Sub menu 1.4 <b class="caret-right"></b></a>
+															<ul class="dropdown-menu">
+																<li><a href="">Sub menu 1.4.1</a></li>
+																<li><a href="">Sub menu 1.4.2</a></li>
+																<li><a href="">Sub menu 1.4.3</a></li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-wrench icon-white"></i> Plugins <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="charts.html">Charts</a></li>
+                                                <li><a href="calendar.html">Calendar</a></li>
+                                                <li><a href="datatable.html">Datatable</a></li>
+                                                <li><a href="file_manager.html">File Manager</a></li>
+                                                <li><a href="floating_header.html">Floating List Header</a></li>
+                                                <li><a href="google_maps.html">Google Maps</a></li>
+                                                <li><a href="gallery.html">Gallery Grid</a></li>
+                                                <li><a href="wizard.html">Wizard</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-file icon-white"></i> Pages <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="chat.html">Chat</a></li>
+                                                <li><a href="error_404.html">Error 404</a></li>
+												<li><a href="mailbox.html">Mailbox</a></li>
+                                                <li><a href="search_page.html">Search page</a></li>
+                                                <li><a href="user_profile.html">User profile</a></li>
+												<li><a href="user_static.html">User profile (static)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                        </li>
+                                        <li>
+                                            <a href="documentation.html"><i class="icon-book icon-white"></i> Help</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myMail">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New messages</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>Sender</th>
+                                    <th>Subject</th>
+                                    <th>Date</th>
+                                    <th>Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Declan Pamphlett</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>23/05/2012</td>
+                                    <td>25KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Erin Church</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>24/05/2012</td>
+                                    <td>15KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Koby Auld</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>28KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Anthony Pound</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>33KB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to mailbox</a>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myTasks">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New Tasks</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>Summary</th>
+                                    <th>Updated</th>
+                                    <th>Priority</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>P-23</td>
+                                    <td><a href="javascript:void(0)">Admin should not break if URL&hellip;</a></td>
+                                    <td>23/05/2012</td>
+                                    <td class="tac"><span class="label label-important">High</span></td>
+                                    <td>Open</td>
+                                </tr>
+                                <tr>
+                                    <td>P-18</td>
+                                    <td><a href="javascript:void(0)">Displaying submenus in custom&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Reopen</td>
+                                </tr>
+                                <tr>
+                                    <td>P-25</td>
+                                    <td><a href="javascript:void(0)">Featured image on post types&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-success">Low</span></td>
+                                    <td>Updated</td>
+                                </tr>
+                                <tr>
+                                    <td>P-10</td>
+                                    <td><a href="javascript:void(0)">Multiple feed fixes and&hellip;</a></td>
+                                    <td>17/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Open</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to task manager</a>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- main content -->
+            <div id="contentwrapper">
+                <div class="main_content">
+                	{% block container %}
+                	{% endblock %}
+                </div>
+            </div>
+            
+			<!-- sidebar -->
+            <a href="javascript:void(0)" class="sidebar_switch on_switch ttip_r" title="Hide Sidebar">Sidebar switch</a>
+            <div class="sidebar">
+				
+				<div class="antiScroll">
+					<div class="antiscroll-inner">
+						<div class="antiscroll-content">
+					
+							<div class="sidebar_inner">
+								<form action="" class="input-append" method="post" >
+									<input autocomplete="off" name="query" class="search_query input-medium" size="16" type="text" placeholder="Search..." /><button type="submit" class="btn"><i class="icon-search"></i></button>
+								</form>
+								<div id="side_accordion" class="accordion">
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-folder-close"></i> Content
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseOne">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Articles</a></li>
+													<li><a href="javascript:void(0)">News</a></li>
+													<li><a href="javascript:void(0)">Newsletters</a></li>
+													<li><a href="javascript:void(0)">Comments</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseTwo" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-th"></i> Modules
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseTwo">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Content blocks</a></li>
+													<li><a href="javascript:void(0)">Tags</a></li>
+													<li><a href="javascript:void(0)">Blog</a></li>
+													<li><a href="javascript:void(0)">FAQ</a></li>
+													<li><a href="javascript:void(0)">Formbuilder</a></li>
+													<li><a href="javascript:void(0)">Location</a></li>
+													<li><a href="javascript:void(0)">Profiles</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseThree" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-user"></i> Account manager
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseThree">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Members</a></li>
+													<li><a href="javascript:void(0)">Members groups</a></li>
+													<li><a href="javascript:void(0)">Users</a></li>
+													<li><a href="javascript:void(0)">Users groups</a></li>
+												</ul>
+												
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseFour" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-cog"></i> Configuration
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseFour">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li class="nav-header">People</li>
+													<li class="active"><a href="javascript:void(0)">Account Settings</a></li>
+													<li><a href="javascript:void(0)">IP Adress Blocking</a></li>
+													<li class="nav-header">System</li>
+													<li><a href="javascript:void(0)">Site information</a></li>
+													<li><a href="javascript:void(0)">Actions</a></li>
+													<li><a href="javascript:void(0)">Cron</a></li>
+													<li class="divider"></li>
+													<li><a href="javascript:void(0)">Help</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseLong" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-leaf"></i> Long content (scrollbar)
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseLong">
+											<div class="accordion-inner">
+												Some text to show sidebar scroll bar<br>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus, orci ac fermentum imperdiet, purus sapien pharetra diam, at varius nibh tellus tristique sem. Nulla congue odio ut augue volutpat congue. Nullam id nisl ut augue posuere ullamcorper vitae eget nunc. Quisque justo turpis, tristique non fermentum ac, feugiat quis lorem. Ut pellentesque, turpis quis auctor laoreet, nibh erat volutpat est, id mattis mi elit non massa. Suspendisse diam dui, fringilla id pretium non, dapibus eget enim. Duis fermentum quam a leo luctus tincidunt euismod sit amet arcu. Duis bibendum ultricies libero sed feugiat. Duis ut sapien risus. Morbi non nulla sit amet eros fringilla blandit id vel augue. Nam placerat ligula lacinia tellus molestie molestie vestibulum leo tincidunt.
+												Duis auctor varius risus vitae commodo. Fusce nec odio massa, ut dapibus justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus, mauris sit amet feugiat tempor, nulla diam gravida magna, in facilisis sapien tellus non ligula. Mauris sapien turpis, sodales ac lacinia sit amet, porttitor in lacus. Pellentesque tincidunt malesuada magna, in egestas augue sodales vel. Praesent iaculis sapien at ante sodales facilisis.
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapse7" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+											   <i class="icon-th"></i> Calculator
+											</a>
+										</div>
+										<div class="accordion-body collapse in" id="collapse7">
+											<div class="accordion-inner">
+												<form name="Calc" id="calc">
+													<div class="formSep control-group input-append">
+														<input type="text" style="width:142px" name="Input" /><button type="button" class="btn" name="clear" value="c" onclick="Calc.Input.value = ''"><i class="icon-remove"></i></button>
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="seven" value="7" onclick="Calc.Input.value += '7'" />
+														<input type="button" class="btn btn-large" name="eight" value="8" onclick="Calc.Input.value += '8'" />
+														<input type="button" class="btn btn-large" name="nine" value="9" onclick="Calc.Input.value += '9'" />
+														<input type="button" class="btn btn-large" name="div" value="/" onclick="Calc.Input.value += ' / '">
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="four" value="4" onclick="Calc.Input.value += '4'" />
+														<input type="button" class="btn btn-large" name="five" value="5" onclick="Calc.Input.value += '5'" />
+														<input type="button" class="btn btn-large" name="six" value="6" onclick="Calc.Input.value += '6'" />
+														<input type="button" class="btn btn-large" name="times" value="x" onclick="Calc.Input.value += ' * '" />
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="one" value="1" onclick="Calc.Input.value += '1'" />
+														<input type="button" class="btn btn-large" name="two" value="2" onclick="Calc.Input.value += '2'" />
+														<input type="button" class="btn btn-large" name="three" value="3" onclick="Calc.Input.value += '3'" />
+														<input type="button" class="btn btn-large" name="minus" value="-" onclick="Calc.Input.value += ' - '" />
+													</div>
+													<div class="formSep control-group">
+														<input type="button" class="btn btn-large" name="dot" value="." onclick="Calc.Input.value += '.'" />
+														<input type="button" class="btn btn-large" name="zero" value="0" onclick="Calc.Input.value += '0'" />
+														<input type="button" class="btn btn-large" name="DoIt" value="=" onclick="Calc.Input.value = Math.round( eval(Calc.Input.value) * 1000)/1000" />
+														<input type="button" class="btn btn-large" name="plus" value="+" onclick="Calc.Input.value += ' + '" />
+													</div>
+													Contributed by <a href="http://themeforest.net/user/maumao">maumao</a>
+												</form>
+											</div>
+										 </div>
+									</div>
+								</div>
+								
+								<div class="push"></div>
+							</div>
+							   
+							<div class="sidebar_info">
+								<ul class="unstyled">
+									<li>
+										<span class="act act-warning">65</span>
+										<strong>New comments</strong>
+									</li>
+									<li>
+										<span class="act act-success">10</span>
+										<strong>New articles</strong>
+									</li>
+									<li>
+										<span class="act act-danger">85</span>
+										<strong>New registrations</strong>
+									</li>
+								</ul>
+							</div> 
+						
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		{% block javascripts %}
+            
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.min.js')}}"></script>
+			<!-- smart resize event -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.debouncedresize.min.js')}}"></script>
+			<!-- hidden elements width/height -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.actual.min.js')}}"></script>
+			<!-- js cookie plugin -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.cookie.min.js')}}"></script>
+			<!-- main bootstrap js -->
+			<script src="{{ asset('bundles/ensatgraduate/bootstrap/js/bootstrap.min.js')}}"></script>
+			<!-- tooltips -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.js')}}"></script>
+			<!-- jBreadcrumbs -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js')}}"></script>
+			<!-- lightbox -->
+            <script src="{{ asset('bundles/ensatgraduate/lib/colorbox/jquery.colorbox.min.js')}}"></script>
+            <!-- fix for ios orientation change -->
+			<script src="{{ asset('bundles/ensatgraduate/js/ios-orientationchange-fix.js')}}"></script>
+			<!-- scrollbar -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/antiscroll.js')}}"></script>
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/jquery-mousewheel.js')}}"></script>
+			<!-- common functions -->
+			<script src="{{ asset('bundles/ensatgraduate/js/gebo_common.js"></script>
+			
+			<script src="{{ asset('bundles/ensatgraduate/lib/jquery-ui/jquery-ui-1.8.20.custom.min.js')}}"></script>
+            <!-- touch events for jquery ui-->
+            <script src="{{ asset('bundles/ensatgraduate/js/forms/jquery.ui.touch-punch.min.js')}}"></script>
+            <!-- multi-column layout -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.imagesloaded.min.js')}}"></script>
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.wookmark.js')}}"></script>
+            <!-- responsive table -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.mediaTable.min.js')}}"></script>
+            <!--<script src="js/gebo_dashboard.js"></script> -->
+            
+            
+            {% endblock %}
+	</body>
+</html>";}i:1;a:2:{i:0;s:6:"string";i:1;s:16:"::base.html.twig";}}}i:4;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:3016;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:31157:"<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+        {% block stylesheets %}
+        <!-- Bootstrap framework -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap.min.css')}}" />
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap-responsive.min.css')}}" />
+        <!-- gebo blue theme-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/blue.css')}}" id="link_theme" />
+        <!-- breadcrumbs-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/css/BreadCrumb.css')}}" />
+        <!-- tooltips-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.css')}}" />
+        <!-- colorbox -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/colorbox/colorbox.css')}}" />    
+        <!-- code prettify -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/google-code-prettify/prettify.css')}}" />    
+        <!-- notifications -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/sticky/sticky.css')}}" />    
+        <!-- splashy icons -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/splashy/splashy.css')}}" />
+		<!-- flags -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/flags/flags.css')}}" />	
+		<!-- calendar -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/fullcalendar/fullcalendar_gebo.css')}}" />
+            
+        <!-- main styles -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/style.css')}}" />
+			
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+	
+        {% endblock %}
+    
+        <!-- Favicon -->
+            <link rel="shortcut icon" href="favicon.ico" />
+		
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/ie.css" />
+            <script src="js/ie/html5.js"></script>
+			<script src="js/ie/respond.min.js"></script>
+			<script src="lib/flot/excanvas.min.js"></script>
+        <![endif]-->
+		
+		<script>
+			//* hide all elements & show preloader
+			document.documentElement.className += 'js';
+		</script>
+    </head>
+    <body>
+		<div id="loading_layer" style="display:none"><img src="img/ajax_loader.gif" alt="" /></div>
+		<div class="style_switcher">
+			<div class="sepH_c">
+				<p>Colors:</p>
+				<div class="clearfix">
+					<a href="javascript:void(0)" class="style_item jQclr blue_theme style_active" title="blue">blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr dark_theme" title="dark">dark</a>
+					<a href="javascript:void(0)" class="style_item jQclr green_theme" title="green">green</a>
+					<a href="javascript:void(0)" class="style_item jQclr brown_theme" title="brown">brown</a>
+					<a href="javascript:void(0)" class="style_item jQclr eastern_blue_theme" title="eastern_blue">eastern blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr tamarillo_theme" title="tamarillo">tamarillo</a>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Backgrounds:</p>
+				<div class="clearfix">
+					<span class="style_item jQptrn style_active ptrn_def" title=""></span>
+					<span class="ssw_ptrn_a style_item jQptrn" title="ptrn_a"></span>
+					<span class="ssw_ptrn_b style_item jQptrn" title="ptrn_b"></span>
+					<span class="ssw_ptrn_c style_item jQptrn" title="ptrn_c"></span>
+					<span class="ssw_ptrn_d style_item jQptrn" title="ptrn_d"></span>
+					<span class="ssw_ptrn_e style_item jQptrn" title="ptrn_e"></span>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Layout:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fluid" value="" checked /> Fluid</label>
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fixed" value="gebo-fixed" /> Fixed</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Sidebar position:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_left" value="" checked /> Left</label>
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_right" value="sidebar_right" /> Right</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Show top menu on:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_click" value="" checked /> Click</label>
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_hover" value="menu_hover" /> Hover</label>
+				</div>
+			</div>
+			
+			<div class="gh_button-group">
+				<a href="" id="showCss" class="btn btn-primary btn-mini">Show CSS</a>
+				<a href="" id="resetDefault" class="btn btn-mini">Reset</a>
+			</div>
+			<div class="hide">
+				<ul id="ssw_styles">
+					<li class="small ssw_mbColor sepH_a" style="display:none">body {<span class="ssw_mColor sepH_a" style="display:none"> color: <span></span>;</span> <span class="ssw_bColor" style="display:none">background-color: <span></span> </span>}</li>
+					<li class="small ssw_lColor sepH_a" style="display:none">a { color: <span></span> }</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="maincontainer" class="clearfix">
+			<!-- header -->
+            <header>
+                <div class="navbar navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <div class="container-fluid">
+                            <a class="brand" href="dashboard.html"><i class="icon-home icon-white"></i> Gebo Admin</a>
+                            <ul class="nav user_menu pull-right">
+                                <li class="hidden-phone hidden-tablet">
+                                    <div class="nb_boxes clearfix">
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New messages">25 <i class="splashy-mail_light"></i></a>
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New tasks">10 <i class="splashy-calendar_week"></i></a>
+                                    </div>
+                                </li>
+								<li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle nav_condensed" data-toggle="dropdown"><i class="flag-gb"></i> <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="javascript:void(0)"><i class="flag-de"></i> Deutsch</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-fr"></i> Français</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-es"></i> Español</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-ru"></i> Pусский</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Johny Smith <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="user_profile.html">My Profile</a></li>
+										<li><a href="javascrip:void(0)">Another action</a></li>
+										<li class="divider"></li>
+										<li><a href="login.html">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+							<a data-target=".nav-collapse" data-toggle="collapse" class="btn_menu">
+								<span class="icon-align-justify icon-white"></span>
+							</a>
+                            <nav>
+                                <div class="nav-collapse">
+                                    <ul class="nav">
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-list-alt icon-white"></i> Forms <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="form_elements.html">Form elements</a></li>
+                                                <li><a href="form_extended.html">Extended form elements</a></li>
+                                                <li><a href="form_validation.html">Form Validation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-th icon-white"></i> Components <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="alerts_btns.html">Alerts & Buttons</a></li>
+                                                <li><a href="icons.html">Icons</a></li>
+                                                <li><a href="notifications.html">Notifications</a></li>
+                                                <li><a href="tables.html">Tables</a></li>
+												<li><a href="tables_more.html">Tables (more examples)</a></li>
+                                                <li><a href="tabs_accordion.html">Tabs & Accordion</a></li>
+                                                <li><a href="tooltips.html">Tooltips, Popovers</a></li>
+                                                <li><a href="typography.html">Typography</a></li>
+												<li><a href="widgets.html">Widget boxes</a></li>
+												<li class="dropdown">
+													<a href="">Sub menu <b class="caret-right"></b></a>
+													<ul class="dropdown-menu">
+														<li><a href="">Sub menu 1.1</a></li>
+														<li><a href="">Sub menu 1.2</a></li>
+														<li><a href="">Sub menu 1.3</a></li>
+														<li>
+															<a href="">Sub menu 1.4 <b class="caret-right"></b></a>
+															<ul class="dropdown-menu">
+																<li><a href="">Sub menu 1.4.1</a></li>
+																<li><a href="">Sub menu 1.4.2</a></li>
+																<li><a href="">Sub menu 1.4.3</a></li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-wrench icon-white"></i> Plugins <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="charts.html">Charts</a></li>
+                                                <li><a href="calendar.html">Calendar</a></li>
+                                                <li><a href="datatable.html">Datatable</a></li>
+                                                <li><a href="file_manager.html">File Manager</a></li>
+                                                <li><a href="floating_header.html">Floating List Header</a></li>
+                                                <li><a href="google_maps.html">Google Maps</a></li>
+                                                <li><a href="gallery.html">Gallery Grid</a></li>
+                                                <li><a href="wizard.html">Wizard</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-file icon-white"></i> Pages <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="chat.html">Chat</a></li>
+                                                <li><a href="error_404.html">Error 404</a></li>
+												<li><a href="mailbox.html">Mailbox</a></li>
+                                                <li><a href="search_page.html">Search page</a></li>
+                                                <li><a href="user_profile.html">User profile</a></li>
+												<li><a href="user_static.html">User profile (static)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                        </li>
+                                        <li>
+                                            <a href="documentation.html"><i class="icon-book icon-white"></i> Help</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myMail">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New messages</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>Sender</th>
+                                    <th>Subject</th>
+                                    <th>Date</th>
+                                    <th>Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Declan Pamphlett</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>23/05/2012</td>
+                                    <td>25KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Erin Church</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>24/05/2012</td>
+                                    <td>15KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Koby Auld</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>28KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Anthony Pound</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>33KB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to mailbox</a>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myTasks">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New Tasks</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>Summary</th>
+                                    <th>Updated</th>
+                                    <th>Priority</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>P-23</td>
+                                    <td><a href="javascript:void(0)">Admin should not break if URL&hellip;</a></td>
+                                    <td>23/05/2012</td>
+                                    <td class="tac"><span class="label label-important">High</span></td>
+                                    <td>Open</td>
+                                </tr>
+                                <tr>
+                                    <td>P-18</td>
+                                    <td><a href="javascript:void(0)">Displaying submenus in custom&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Reopen</td>
+                                </tr>
+                                <tr>
+                                    <td>P-25</td>
+                                    <td><a href="javascript:void(0)">Featured image on post types&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-success">Low</span></td>
+                                    <td>Updated</td>
+                                </tr>
+                                <tr>
+                                    <td>P-10</td>
+                                    <td><a href="javascript:void(0)">Multiple feed fixes and&hellip;</a></td>
+                                    <td>17/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Open</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to task manager</a>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- main content -->
+            <div id="contentwrapper">
+                <div class="main_content">
+                	{% block container %}
+                	{% endblock %}
+                </div>
+            </div>
+            
+			<!-- sidebar -->
+            <a href="javascript:void(0)" class="sidebar_switch on_switch ttip_r" title="Hide Sidebar">Sidebar switch</a>
+            <div class="sidebar">
+				
+				<div class="antiScroll">
+					<div class="antiscroll-inner">
+						<div class="antiscroll-content">
+					
+							<div class="sidebar_inner">
+								<form action="" class="input-append" method="post" >
+									<input autocomplete="off" name="query" class="search_query input-medium" size="16" type="text" placeholder="Search..." /><button type="submit" class="btn"><i class="icon-search"></i></button>
+								</form>
+								<div id="side_accordion" class="accordion">
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-folder-close"></i> Content
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseOne">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Articles</a></li>
+													<li><a href="javascript:void(0)">News</a></li>
+													<li><a href="javascript:void(0)">Newsletters</a></li>
+													<li><a href="javascript:void(0)">Comments</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseTwo" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-th"></i> Modules
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseTwo">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Content blocks</a></li>
+													<li><a href="javascript:void(0)">Tags</a></li>
+													<li><a href="javascript:void(0)">Blog</a></li>
+													<li><a href="javascript:void(0)">FAQ</a></li>
+													<li><a href="javascript:void(0)">Formbuilder</a></li>
+													<li><a href="javascript:void(0)">Location</a></li>
+													<li><a href="javascript:void(0)">Profiles</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseThree" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-user"></i> Account manager
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseThree">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Members</a></li>
+													<li><a href="javascript:void(0)">Members groups</a></li>
+													<li><a href="javascript:void(0)">Users</a></li>
+													<li><a href="javascript:void(0)">Users groups</a></li>
+												</ul>
+												
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseFour" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-cog"></i> Configuration
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseFour">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li class="nav-header">People</li>
+													<li class="active"><a href="javascript:void(0)">Account Settings</a></li>
+													<li><a href="javascript:void(0)">IP Adress Blocking</a></li>
+													<li class="nav-header">System</li>
+													<li><a href="javascript:void(0)">Site information</a></li>
+													<li><a href="javascript:void(0)">Actions</a></li>
+													<li><a href="javascript:void(0)">Cron</a></li>
+													<li class="divider"></li>
+													<li><a href="javascript:void(0)">Help</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseLong" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-leaf"></i> Long content (scrollbar)
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseLong">
+											<div class="accordion-inner">
+												Some text to show sidebar scroll bar<br>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus, orci ac fermentum imperdiet, purus sapien pharetra diam, at varius nibh tellus tristique sem. Nulla congue odio ut augue volutpat congue. Nullam id nisl ut augue posuere ullamcorper vitae eget nunc. Quisque justo turpis, tristique non fermentum ac, feugiat quis lorem. Ut pellentesque, turpis quis auctor laoreet, nibh erat volutpat est, id mattis mi elit non massa. Suspendisse diam dui, fringilla id pretium non, dapibus eget enim. Duis fermentum quam a leo luctus tincidunt euismod sit amet arcu. Duis bibendum ultricies libero sed feugiat. Duis ut sapien risus. Morbi non nulla sit amet eros fringilla blandit id vel augue. Nam placerat ligula lacinia tellus molestie molestie vestibulum leo tincidunt.
+												Duis auctor varius risus vitae commodo. Fusce nec odio massa, ut dapibus justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus, mauris sit amet feugiat tempor, nulla diam gravida magna, in facilisis sapien tellus non ligula. Mauris sapien turpis, sodales ac lacinia sit amet, porttitor in lacus. Pellentesque tincidunt malesuada magna, in egestas augue sodales vel. Praesent iaculis sapien at ante sodales facilisis.
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapse7" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+											   <i class="icon-th"></i> Calculator
+											</a>
+										</div>
+										<div class="accordion-body collapse in" id="collapse7">
+											<div class="accordion-inner">
+												<form name="Calc" id="calc">
+													<div class="formSep control-group input-append">
+														<input type="text" style="width:142px" name="Input" /><button type="button" class="btn" name="clear" value="c" onclick="Calc.Input.value = ''"><i class="icon-remove"></i></button>
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="seven" value="7" onclick="Calc.Input.value += '7'" />
+														<input type="button" class="btn btn-large" name="eight" value="8" onclick="Calc.Input.value += '8'" />
+														<input type="button" class="btn btn-large" name="nine" value="9" onclick="Calc.Input.value += '9'" />
+														<input type="button" class="btn btn-large" name="div" value="/" onclick="Calc.Input.value += ' / '">
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="four" value="4" onclick="Calc.Input.value += '4'" />
+														<input type="button" class="btn btn-large" name="five" value="5" onclick="Calc.Input.value += '5'" />
+														<input type="button" class="btn btn-large" name="six" value="6" onclick="Calc.Input.value += '6'" />
+														<input type="button" class="btn btn-large" name="times" value="x" onclick="Calc.Input.value += ' * '" />
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="one" value="1" onclick="Calc.Input.value += '1'" />
+														<input type="button" class="btn btn-large" name="two" value="2" onclick="Calc.Input.value += '2'" />
+														<input type="button" class="btn btn-large" name="three" value="3" onclick="Calc.Input.value += '3'" />
+														<input type="button" class="btn btn-large" name="minus" value="-" onclick="Calc.Input.value += ' - '" />
+													</div>
+													<div class="formSep control-group">
+														<input type="button" class="btn btn-large" name="dot" value="." onclick="Calc.Input.value += '.'" />
+														<input type="button" class="btn btn-large" name="zero" value="0" onclick="Calc.Input.value += '0'" />
+														<input type="button" class="btn btn-large" name="DoIt" value="=" onclick="Calc.Input.value = Math.round( eval(Calc.Input.value) * 1000)/1000" />
+														<input type="button" class="btn btn-large" name="plus" value="+" onclick="Calc.Input.value += ' + '" />
+													</div>
+													Contributed by <a href="http://themeforest.net/user/maumao">maumao</a>
+												</form>
+											</div>
+										 </div>
+									</div>
+								</div>
+								
+								<div class="push"></div>
+							</div>
+							   
+							<div class="sidebar_info">
+								<ul class="unstyled">
+									<li>
+										<span class="act act-warning">65</span>
+										<strong>New comments</strong>
+									</li>
+									<li>
+										<span class="act act-success">10</span>
+										<strong>New articles</strong>
+									</li>
+									<li>
+										<span class="act act-danger">85</span>
+										<strong>New registrations</strong>
+									</li>
+								</ul>
+							</div> 
+						
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		{% block javascripts %}
+            
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.min.js')}}"></script>
+			<!-- smart resize event -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.debouncedresize.min.js')}}"></script>
+			<!-- hidden elements width/height -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.actual.min.js')}}"></script>
+			<!-- js cookie plugin -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.cookie.min.js')}}"></script>
+			<!-- main bootstrap js -->
+			<script src="{{ asset('bundles/ensatgraduate/bootstrap/js/bootstrap.min.js')}}"></script>
+			<!-- tooltips -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.js')}}"></script>
+			<!-- jBreadcrumbs -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js')}}"></script>
+			<!-- lightbox -->
+            <script src="{{ asset('bundles/ensatgraduate/lib/colorbox/jquery.colorbox.min.js')}}"></script>
+            <!-- fix for ios orientation change -->
+			<script src="{{ asset('bundles/ensatgraduate/js/ios-orientationchange-fix.js')}}"></script>
+			<!-- scrollbar -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/antiscroll.js')}}"></script>
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/jquery-mousewheel.js')}}"></script>
+			<!-- common functions -->
+			<script src="{{ asset('bundles/ensatgraduate/js/gebo_common.js"></script>
+			
+			<script src="{{ asset('bundles/ensatgraduate/lib/jquery-ui/jquery-ui-1.8.20.custom.min.js')}}"></script>
+            <!-- touch events for jquery ui-->
+            <script src="{{ asset('bundles/ensatgraduate/js/forms/jquery.ui.touch-punch.min.js')}}"></script>
+            <!-- multi-column layout -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.imagesloaded.min.js')}}"></script>
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.wookmark.js')}}"></script>
+            <!-- responsive table -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.mediaTable.min.js')}}"></script>
+            <!--<script src="js/gebo_dashboard.js"></script> -->
+            
+            
+            {% endblock %}
+	</body>
+</html>";}i:1;a:2:{i:0;s:6:"string";i:1;s:16:"::base.html.twig";}}}i:5;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:13:"compileSource";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:2914;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:31157:"<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+        {% block stylesheets %}
+        <!-- Bootstrap framework -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap.min.css')}}" />
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/bootstrap/css/bootstrap-responsive.min.css')}}" />
+        <!-- gebo blue theme-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/blue.css')}}" id="link_theme" />
+        <!-- breadcrumbs-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/css/BreadCrumb.css')}}" />
+        <!-- tooltips-->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.css')}}" />
+        <!-- colorbox -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/colorbox/colorbox.css')}}" />    
+        <!-- code prettify -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/google-code-prettify/prettify.css')}}" />    
+        <!-- notifications -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/sticky/sticky.css')}}" />    
+        <!-- splashy icons -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/splashy/splashy.css')}}" />
+		<!-- flags -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/img/flags/flags.css')}}" />	
+		<!-- calendar -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/lib/fullcalendar/fullcalendar_gebo.css')}}" />
+            
+        <!-- main styles -->
+            <link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/style.css')}}" />
+			
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+	
+        {% endblock %}
+    
+        <!-- Favicon -->
+            <link rel="shortcut icon" href="favicon.ico" />
+		
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/ie.css" />
+            <script src="js/ie/html5.js"></script>
+			<script src="js/ie/respond.min.js"></script>
+			<script src="lib/flot/excanvas.min.js"></script>
+        <![endif]-->
+		
+		<script>
+			//* hide all elements & show preloader
+			document.documentElement.className += 'js';
+		</script>
+    </head>
+    <body>
+		<div id="loading_layer" style="display:none"><img src="img/ajax_loader.gif" alt="" /></div>
+		<div class="style_switcher">
+			<div class="sepH_c">
+				<p>Colors:</p>
+				<div class="clearfix">
+					<a href="javascript:void(0)" class="style_item jQclr blue_theme style_active" title="blue">blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr dark_theme" title="dark">dark</a>
+					<a href="javascript:void(0)" class="style_item jQclr green_theme" title="green">green</a>
+					<a href="javascript:void(0)" class="style_item jQclr brown_theme" title="brown">brown</a>
+					<a href="javascript:void(0)" class="style_item jQclr eastern_blue_theme" title="eastern_blue">eastern blue</a>
+					<a href="javascript:void(0)" class="style_item jQclr tamarillo_theme" title="tamarillo">tamarillo</a>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Backgrounds:</p>
+				<div class="clearfix">
+					<span class="style_item jQptrn style_active ptrn_def" title=""></span>
+					<span class="ssw_ptrn_a style_item jQptrn" title="ptrn_a"></span>
+					<span class="ssw_ptrn_b style_item jQptrn" title="ptrn_b"></span>
+					<span class="ssw_ptrn_c style_item jQptrn" title="ptrn_c"></span>
+					<span class="ssw_ptrn_d style_item jQptrn" title="ptrn_d"></span>
+					<span class="ssw_ptrn_e style_item jQptrn" title="ptrn_e"></span>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Layout:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fluid" value="" checked /> Fluid</label>
+					<label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fixed" value="gebo-fixed" /> Fixed</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Sidebar position:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_left" value="" checked /> Left</label>
+					<label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_right" value="sidebar_right" /> Right</label>
+				</div>
+			</div>
+			<div class="sepH_c">
+				<p>Show top menu on:</p>
+				<div class="clearfix">
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_click" value="" checked /> Click</label>
+					<label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_hover" value="menu_hover" /> Hover</label>
+				</div>
+			</div>
+			
+			<div class="gh_button-group">
+				<a href="" id="showCss" class="btn btn-primary btn-mini">Show CSS</a>
+				<a href="" id="resetDefault" class="btn btn-mini">Reset</a>
+			</div>
+			<div class="hide">
+				<ul id="ssw_styles">
+					<li class="small ssw_mbColor sepH_a" style="display:none">body {<span class="ssw_mColor sepH_a" style="display:none"> color: <span></span>;</span> <span class="ssw_bColor" style="display:none">background-color: <span></span> </span>}</li>
+					<li class="small ssw_lColor sepH_a" style="display:none">a { color: <span></span> }</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="maincontainer" class="clearfix">
+			<!-- header -->
+            <header>
+                <div class="navbar navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <div class="container-fluid">
+                            <a class="brand" href="dashboard.html"><i class="icon-home icon-white"></i> Gebo Admin</a>
+                            <ul class="nav user_menu pull-right">
+                                <li class="hidden-phone hidden-tablet">
+                                    <div class="nb_boxes clearfix">
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New messages">25 <i class="splashy-mail_light"></i></a>
+                                        <a data-toggle="modal" data-backdrop="static" href="" class="label ttip_b" title="New tasks">10 <i class="splashy-calendar_week"></i></a>
+                                    </div>
+                                </li>
+								<li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle nav_condensed" data-toggle="dropdown"><i class="flag-gb"></i> <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="javascript:void(0)"><i class="flag-de"></i> Deutsch</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-fr"></i> Français</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-es"></i> Español</a></li>
+										<li><a href="javascript:void(0)"><i class="flag-ru"></i> Pусский</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider-vertical hidden-phone hidden-tablet"></li>
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Johny Smith <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+										<li><a href="user_profile.html">My Profile</a></li>
+										<li><a href="javascrip:void(0)">Another action</a></li>
+										<li class="divider"></li>
+										<li><a href="login.html">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+							<a data-target=".nav-collapse" data-toggle="collapse" class="btn_menu">
+								<span class="icon-align-justify icon-white"></span>
+							</a>
+                            <nav>
+                                <div class="nav-collapse">
+                                    <ul class="nav">
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-list-alt icon-white"></i> Forms <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="form_elements.html">Form elements</a></li>
+                                                <li><a href="form_extended.html">Extended form elements</a></li>
+                                                <li><a href="form_validation.html">Form Validation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-th icon-white"></i> Components <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="alerts_btns.html">Alerts & Buttons</a></li>
+                                                <li><a href="icons.html">Icons</a></li>
+                                                <li><a href="notifications.html">Notifications</a></li>
+                                                <li><a href="tables.html">Tables</a></li>
+												<li><a href="tables_more.html">Tables (more examples)</a></li>
+                                                <li><a href="tabs_accordion.html">Tabs & Accordion</a></li>
+                                                <li><a href="tooltips.html">Tooltips, Popovers</a></li>
+                                                <li><a href="typography.html">Typography</a></li>
+												<li><a href="widgets.html">Widget boxes</a></li>
+												<li class="dropdown">
+													<a href="">Sub menu <b class="caret-right"></b></a>
+													<ul class="dropdown-menu">
+														<li><a href="">Sub menu 1.1</a></li>
+														<li><a href="">Sub menu 1.2</a></li>
+														<li><a href="">Sub menu 1.3</a></li>
+														<li>
+															<a href="">Sub menu 1.4 <b class="caret-right"></b></a>
+															<ul class="dropdown-menu">
+																<li><a href="">Sub menu 1.4.1</a></li>
+																<li><a href="">Sub menu 1.4.2</a></li>
+																<li><a href="">Sub menu 1.4.3</a></li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-wrench icon-white"></i> Plugins <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="charts.html">Charts</a></li>
+                                                <li><a href="calendar.html">Calendar</a></li>
+                                                <li><a href="datatable.html">Datatable</a></li>
+                                                <li><a href="file_manager.html">File Manager</a></li>
+                                                <li><a href="floating_header.html">Floating List Header</a></li>
+                                                <li><a href="google_maps.html">Google Maps</a></li>
+                                                <li><a href="gallery.html">Gallery Grid</a></li>
+                                                <li><a href="wizard.html">Wizard</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href=""><i class="icon-file icon-white"></i> Pages <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="chat.html">Chat</a></li>
+                                                <li><a href="error_404.html">Error 404</a></li>
+												<li><a href="mailbox.html">Mailbox</a></li>
+                                                <li><a href="search_page.html">Search page</a></li>
+                                                <li><a href="user_profile.html">User profile</a></li>
+												<li><a href="user_static.html">User profile (static)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                        </li>
+                                        <li>
+                                            <a href="documentation.html"><i class="icon-book icon-white"></i> Help</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myMail">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New messages</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>Sender</th>
+                                    <th>Subject</th>
+                                    <th>Date</th>
+                                    <th>Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Declan Pamphlett</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>23/05/2012</td>
+                                    <td>25KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Erin Church</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>24/05/2012</td>
+                                    <td>15KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Koby Auld</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>28KB</td>
+                                </tr>
+                                <tr>
+                                    <td>Anthony Pound</td>
+                                    <td><a href="javascript:void(0)">Lorem ipsum dolor sit amet</a></td>
+                                    <td>25/05/2012</td>
+                                    <td>33KB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to mailbox</a>
+                    </div>
+                </div>
+                <div class="modal hide fade" id="myTasks">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">×</button>
+                        <h3>New Tasks</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info">In this table jquery plugin turns a table row into a clickable link.</div>
+                        <table class="table table-condensed table-striped" data-rowlink="a">
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>Summary</th>
+                                    <th>Updated</th>
+                                    <th>Priority</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>P-23</td>
+                                    <td><a href="javascript:void(0)">Admin should not break if URL&hellip;</a></td>
+                                    <td>23/05/2012</td>
+                                    <td class="tac"><span class="label label-important">High</span></td>
+                                    <td>Open</td>
+                                </tr>
+                                <tr>
+                                    <td>P-18</td>
+                                    <td><a href="javascript:void(0)">Displaying submenus in custom&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Reopen</td>
+                                </tr>
+                                <tr>
+                                    <td>P-25</td>
+                                    <td><a href="javascript:void(0)">Featured image on post types&hellip;</a></td>
+                                    <td>22/05/2012</td>
+                                    <td class="tac"><span class="label label-success">Low</span></td>
+                                    <td>Updated</td>
+                                </tr>
+                                <tr>
+                                    <td>P-10</td>
+                                    <td><a href="javascript:void(0)">Multiple feed fixes and&hellip;</a></td>
+                                    <td>17/05/2012</td>
+                                    <td class="tac"><span class="label label-warning">Medium</span></td>
+                                    <td>Open</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="btn">Go to task manager</a>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- main content -->
+            <div id="contentwrapper">
+                <div class="main_content">
+                	{% block container %}
+                	{% endblock %}
+                </div>
+            </div>
+            
+			<!-- sidebar -->
+            <a href="javascript:void(0)" class="sidebar_switch on_switch ttip_r" title="Hide Sidebar">Sidebar switch</a>
+            <div class="sidebar">
+				
+				<div class="antiScroll">
+					<div class="antiscroll-inner">
+						<div class="antiscroll-content">
+					
+							<div class="sidebar_inner">
+								<form action="" class="input-append" method="post" >
+									<input autocomplete="off" name="query" class="search_query input-medium" size="16" type="text" placeholder="Search..." /><button type="submit" class="btn"><i class="icon-search"></i></button>
+								</form>
+								<div id="side_accordion" class="accordion">
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-folder-close"></i> Content
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseOne">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Articles</a></li>
+													<li><a href="javascript:void(0)">News</a></li>
+													<li><a href="javascript:void(0)">Newsletters</a></li>
+													<li><a href="javascript:void(0)">Comments</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseTwo" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-th"></i> Modules
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseTwo">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Content blocks</a></li>
+													<li><a href="javascript:void(0)">Tags</a></li>
+													<li><a href="javascript:void(0)">Blog</a></li>
+													<li><a href="javascript:void(0)">FAQ</a></li>
+													<li><a href="javascript:void(0)">Formbuilder</a></li>
+													<li><a href="javascript:void(0)">Location</a></li>
+													<li><a href="javascript:void(0)">Profiles</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseThree" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-user"></i> Account manager
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseThree">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li><a href="javascript:void(0)">Members</a></li>
+													<li><a href="javascript:void(0)">Members groups</a></li>
+													<li><a href="javascript:void(0)">Users</a></li>
+													<li><a href="javascript:void(0)">Users groups</a></li>
+												</ul>
+												
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseFour" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-cog"></i> Configuration
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseFour">
+											<div class="accordion-inner">
+												<ul class="nav nav-list">
+													<li class="nav-header">People</li>
+													<li class="active"><a href="javascript:void(0)">Account Settings</a></li>
+													<li><a href="javascript:void(0)">IP Adress Blocking</a></li>
+													<li class="nav-header">System</li>
+													<li><a href="javascript:void(0)">Site information</a></li>
+													<li><a href="javascript:void(0)">Actions</a></li>
+													<li><a href="javascript:void(0)">Cron</a></li>
+													<li class="divider"></li>
+													<li><a href="javascript:void(0)">Help</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapseLong" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+												<i class="icon-leaf"></i> Long content (scrollbar)
+											</a>
+										</div>
+										<div class="accordion-body collapse" id="collapseLong">
+											<div class="accordion-inner">
+												Some text to show sidebar scroll bar<br>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus, orci ac fermentum imperdiet, purus sapien pharetra diam, at varius nibh tellus tristique sem. Nulla congue odio ut augue volutpat congue. Nullam id nisl ut augue posuere ullamcorper vitae eget nunc. Quisque justo turpis, tristique non fermentum ac, feugiat quis lorem. Ut pellentesque, turpis quis auctor laoreet, nibh erat volutpat est, id mattis mi elit non massa. Suspendisse diam dui, fringilla id pretium non, dapibus eget enim. Duis fermentum quam a leo luctus tincidunt euismod sit amet arcu. Duis bibendum ultricies libero sed feugiat. Duis ut sapien risus. Morbi non nulla sit amet eros fringilla blandit id vel augue. Nam placerat ligula lacinia tellus molestie molestie vestibulum leo tincidunt.
+												Duis auctor varius risus vitae commodo. Fusce nec odio massa, ut dapibus justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus, mauris sit amet feugiat tempor, nulla diam gravida magna, in facilisis sapien tellus non ligula. Mauris sapien turpis, sodales ac lacinia sit amet, porttitor in lacus. Pellentesque tincidunt malesuada magna, in egestas augue sodales vel. Praesent iaculis sapien at ante sodales facilisis.
+											</div>
+										</div>
+									</div>
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<a href="collapse7" data-parent="side_accordion" data-toggle="collapse" class="accordion-toggle">
+											   <i class="icon-th"></i> Calculator
+											</a>
+										</div>
+										<div class="accordion-body collapse in" id="collapse7">
+											<div class="accordion-inner">
+												<form name="Calc" id="calc">
+													<div class="formSep control-group input-append">
+														<input type="text" style="width:142px" name="Input" /><button type="button" class="btn" name="clear" value="c" onclick="Calc.Input.value = ''"><i class="icon-remove"></i></button>
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="seven" value="7" onclick="Calc.Input.value += '7'" />
+														<input type="button" class="btn btn-large" name="eight" value="8" onclick="Calc.Input.value += '8'" />
+														<input type="button" class="btn btn-large" name="nine" value="9" onclick="Calc.Input.value += '9'" />
+														<input type="button" class="btn btn-large" name="div" value="/" onclick="Calc.Input.value += ' / '">
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="four" value="4" onclick="Calc.Input.value += '4'" />
+														<input type="button" class="btn btn-large" name="five" value="5" onclick="Calc.Input.value += '5'" />
+														<input type="button" class="btn btn-large" name="six" value="6" onclick="Calc.Input.value += '6'" />
+														<input type="button" class="btn btn-large" name="times" value="x" onclick="Calc.Input.value += ' * '" />
+													</div>
+													<div class="control-group">
+														<input type="button" class="btn btn-large" name="one" value="1" onclick="Calc.Input.value += '1'" />
+														<input type="button" class="btn btn-large" name="two" value="2" onclick="Calc.Input.value += '2'" />
+														<input type="button" class="btn btn-large" name="three" value="3" onclick="Calc.Input.value += '3'" />
+														<input type="button" class="btn btn-large" name="minus" value="-" onclick="Calc.Input.value += ' - '" />
+													</div>
+													<div class="formSep control-group">
+														<input type="button" class="btn btn-large" name="dot" value="." onclick="Calc.Input.value += '.'" />
+														<input type="button" class="btn btn-large" name="zero" value="0" onclick="Calc.Input.value += '0'" />
+														<input type="button" class="btn btn-large" name="DoIt" value="=" onclick="Calc.Input.value = Math.round( eval(Calc.Input.value) * 1000)/1000" />
+														<input type="button" class="btn btn-large" name="plus" value="+" onclick="Calc.Input.value += ' + '" />
+													</div>
+													Contributed by <a href="http://themeforest.net/user/maumao">maumao</a>
+												</form>
+											</div>
+										 </div>
+									</div>
+								</div>
+								
+								<div class="push"></div>
+							</div>
+							   
+							<div class="sidebar_info">
+								<ul class="unstyled">
+									<li>
+										<span class="act act-warning">65</span>
+										<strong>New comments</strong>
+									</li>
+									<li>
+										<span class="act act-success">10</span>
+										<strong>New articles</strong>
+									</li>
+									<li>
+										<span class="act act-danger">85</span>
+										<strong>New registrations</strong>
+									</li>
+								</ul>
+							</div> 
+						
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		
+		</div>
+		{% block javascripts %}
+            
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.min.js')}}"></script>
+			<!-- smart resize event -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.debouncedresize.min.js')}}"></script>
+			<!-- hidden elements width/height -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.actual.min.js')}}"></script>
+			<!-- js cookie plugin -->
+			<script src="{{ asset('bundles/ensatgraduate/js/jquery.cookie.min.js')}}"></script>
+			<!-- main bootstrap js -->
+			<script src="{{ asset('bundles/ensatgraduate/bootstrap/js/bootstrap.min.js')}}"></script>
+			<!-- tooltips -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.js')}}"></script>
+			<!-- jBreadcrumbs -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js')}}"></script>
+			<!-- lightbox -->
+            <script src="{{ asset('bundles/ensatgraduate/lib/colorbox/jquery.colorbox.min.js')}}"></script>
+            <!-- fix for ios orientation change -->
+			<script src="{{ asset('bundles/ensatgraduate/js/ios-orientationchange-fix.js')}}"></script>
+			<!-- scrollbar -->
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/antiscroll.js')}}"></script>
+			<script src="{{ asset('bundles/ensatgraduate/lib/antiscroll/jquery-mousewheel.js')}}"></script>
+			<!-- common functions -->
+			<script src="{{ asset('bundles/ensatgraduate/js/gebo_common.js"></script>
+			
+			<script src="{{ asset('bundles/ensatgraduate/lib/jquery-ui/jquery-ui-1.8.20.custom.min.js')}}"></script>
+            <!-- touch events for jquery ui-->
+            <script src="{{ asset('bundles/ensatgraduate/js/forms/jquery.ui.touch-punch.min.js')}}"></script>
+            <!-- multi-column layout -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.imagesloaded.min.js')}}"></script>
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.wookmark.js')}}"></script>
+            <!-- responsive table -->
+            <script src="{{ asset('bundles/ensatgraduate/js/jquery.mediaTable.min.js')}}"></script>
+            <!--<script src="js/gebo_dashboard.js"></script> -->
+            
+            
+            {% endblock %}
+	</body>
+</html>";}i:1;a:2:{i:0;s:6:"string";i:1;s:16:"::base.html.twig";}}}i:6;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:12:"loadTemplate";s:4:"file";s:110:"C:\wamp\www\graduate\app\cache\dev\twig\01\99\549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef886834218c02.php";s:4:"line";i:10;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:16:"::base.html.twig";}}}i:7;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:79:"__TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef886834218c02";s:5:"class";s:79:"__TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef886834218c02";s:4:"type";s:2:"->";s:8:"function";s:11:"__construct";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:2922;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:16:"Twig_Environment";}}}i:8;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:12:"loadTemplate";s:4:"file";s:82:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:131;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}}}i:9;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:4:"load";s:4:"file";s:82:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bridge\Twig\TwigEngine.php";s:4:"line";i:53;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}}}i:10;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:88:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:79;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:6:"sinass";}}}}}i:11;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:99:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\Debug\TimedTwigEngine.php";s:4:"line";i:52;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:6:"sinass";}}}}}i:12;a:8:{s:9:"namespace";s:31:"Symfony\Bundle\TwigBundle\Debug";s:11:"short_class";s:15:"TimedTwigEngine";s:5:"class";s:47:"Symfony\Bundle\TwigBundle\Debug\TimedTwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:88:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle\TwigEngine.php";s:4:"line";i:108;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:6:"sinass";}}}}}i:13;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:14:"renderResponse";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:6093;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Bundle\FrameworkBundle\Templating\TemplateReference";}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{s:4:"name";a:2:{i:0;s:6:"string";i:1;s:6:"sinass";}}}}}i:14;a:8:{s:9:"namespace";s:48:"Sensio\Bundle\FrameworkExtraBundle\EventListener";s:11:"short_class";s:16:"TemplateListener";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:4:"type";s:2:"->";s:8:"function";s:12:"onKernelView";s:4:"file";N;s:4:"line";N;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:15;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:14:"call_user_func";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher.php";s:4:"line";i:450;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";}i:1;a:2:{i:0;s:6:"string";i:1;s:12:"onKernelView";}}}i:1;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:16;a:8:{s:9:"namespace";s:34:"Symfony\Component\HttpKernel\Debug";s:11:"short_class";s:24:"TraceableEventDispatcher";s:5:"class";s:59:"Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:44:"Symfony\Component\HttpKernel\Debug\{closure}";s:4:"file";N;s:4:"line";N;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:17;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:14:"call_user_func";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:1665;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:7:"Closure";}i:1;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:18;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:15:"EventDispatcher";s:5:"class";s:49:"Symfony\Component\EventDispatcher\EventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:10:"doDispatch";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:1598;s:4:"args";a:3:{i:0;a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:7:"Closure";}}}i:1;a:2:{i:0;s:6:"string";i:1;s:11:"kernel.view";}i:2;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:19;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:15:"EventDispatcher";s:5:"class";s:49:"Symfony\Component\EventDispatcher\EventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:1762;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:11:"kernel.view";}i:1;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:20;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:29:"ContainerAwareEventDispatcher";s:5:"class";s:63:"Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher.php";s:4:"line";i:139;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:11:"kernel.view";}i:1;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:21;a:8:{s:9:"namespace";s:34:"Symfony\Component\HttpKernel\Debug";s:11:"short_class";s:24:"TraceableEventDispatcher";s:5:"class";s:59:"Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:44:"C:\wamp\www\graduate\app\bootstrap.php.cache";s:4:"line";i:2846;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:11:"kernel.view";}i:1;a:2:{i:0;s:6:"object";i:1;s:70:"Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent";}}}i:22;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:44:"C:\wamp\www\graduate\app\bootstrap.php.cache";s:4:"line";i:2817;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:23;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:44:"C:\wamp\www\graduate\app\bootstrap.php.cache";s:4:"line";i:2946;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:24;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:44:"C:\wamp\www\graduate\app\bootstrap.php.cache";s:4:"line";i:2248;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:25;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:36:"C:\wamp\www\graduate\web\app_dev.php";s:4:"line";i:28;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:17:"Twig_Error_Syntax";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:56:"C:\wamp\www\graduate\vendor\twig\twig\lib\Twig\Lexer.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:282;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":12884:{a:2:{s:16:"called_listeners";a:25:{s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:72;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";}s:92:"kernel.request.Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:23;s:6:"pretty";s:77:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\FragmentListener.php";s:4:"line";i:57;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:1859;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:109:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:51;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";}s:72:"kernel.request.Symfony\Component\Security\Http\Firewall::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:2340;s:6:"pretty";s:57:"Symfony\Component\Security\Http\Firewall::onKernelRequest";}s:90:"kernel.request.Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:113:"C:\wamp\www\graduate\vendor\symfony\assetic-bundle\Symfony\Bundle\AsseticBundle\EventListener\RequestListener.php";s:4:"line";i:23;s:6:"pretty";s:75:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";}s:92:"kernel.request.Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener";s:6:"method";s:12:"injectLogger";s:4:"file";s:115:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener.php";s:4:"line";i:37;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:114:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RouterDataCollector.php";s:4:"line";i:67;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:115:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RequestDataCollector.php";s:4:"line";i:273;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:5668;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:5736;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:6045;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";}s:91:"kernel.view.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:6070;s:6:"pretty";s:79:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:63;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:112:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ExceptionListener.php";s:4:"line";i:39;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}s:79:"kernel.response.Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\FirePHPHandler";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:97:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\FirePHPHandler.php";s:4:"line";i:39;s:6:"pretty";s:63:"Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse";}s:81:"kernel.response.Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:47:"Symfony\Bridge\Monolog\Handler\ChromePhpHandler";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:99:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bridge\Monolog\Handler\ChromePhpHandler.php";s:4:"line";i:39;s:6:"pretty";s:65:"Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:1800;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\Security\Http\RememberMe\ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:96:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:46:"C:\wamp\www\graduate\app\cache\dev\classes.php";s:4:"line";i:6117;s:6:"pretty";s:80:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:111:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:82;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:122:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener.php";s:4:"line";i:54;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:119:"C:\wamp\www\graduate\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\StreamedResponseListener.php";s:4:"line";i:33;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:17:"onKernelTerminate";s:4:"file";s:125:"C:\wamp\www\graduate\vendor\symfony\swiftmailer-bundle\Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener.php";s:4:"line";i:36;s:6:"pretty";s:85:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate";}}s:20:"not_called_listeners";a:1:{s:19:"kernel.view.closure";a:3:{s:5:"event";s:11:"kernel.view";s:4:"type";s:7:"Closure";s:6:"pretty";s:7:"closure";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":12829:{a:3:{s:11:"error_count";i:1;s:4:"logs";a:48:{i:0;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:1;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:2;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:3;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:4;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:198:"Matched route "ensat_graduate_default_index" (parameters: "_controller": "Ensat\GraduateBundle\Controller\DefaultController::indexAction", "name": "sinass", "_route": "ensat_graduate_default_index")";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:123:"Notified event "kernel.view" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:210:"Uncaught PHP Exception Twig_Error_Syntax: "Unexpected character "'" in "C:/wamp/www/graduate/app/Resources\views/base.html.twig" at line 544" at C:\wamp\www\graduate\vendor\twig\twig\lib\Twig\Lexer.php line 282";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:25:"Object(Twig_Error_Syntax)";}}i:19;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:20;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:21;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:22;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:23;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:24;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener::injectLogger".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1386552731;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:111:"Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:113:"Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:128:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:111:"Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:113:"Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:128:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1386552732;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}s:17:"deprecation_count";i:0;}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":27640:{a:2:{s:10:"start_time";d:1386552730739.6220703125;s:6:"events";a:40:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1825;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18874368;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1841;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1843;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19398656;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:512;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:22:"kernel.request.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:7602176;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:3:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:7602176;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:581;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:581;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:13369344;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1585;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1601;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18874368;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:28;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:7864320;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:29;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:29;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:7864320;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:30;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:503;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:503;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:504;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:507;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:507;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:508;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:508;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\EventListener\ErrorsLoggerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:509;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:511;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:512;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:512;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"controller.get_callable";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:513;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:513;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"kernel.controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:514;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:524;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:25:"kernel.controller.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:514;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:514;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:515;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:515;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:516;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:516;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:517;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:519;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:520;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:520;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:521;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:524;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:525;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1827;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19136512;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:10:"controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:524;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:524;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"controller.get_arguments";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:524;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:524;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:11:"kernel.view";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:524;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1827;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19136512;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:19:"kernel.view.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:524;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:524;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:12845056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"template.twig (EnsatGraduateBundle:Default:index.html.twig)";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:536;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1827;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19136512;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:580;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1578;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"kernel.exception.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:580;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:580;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:13369344;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:582;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1577;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:592;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1576;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1579;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1824;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18874368;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"kernel.response.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1579;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1579;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:45:"Symfony\Bridge\Monolog\Handler\FirePHPHandler";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1579;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1580;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:47:"Symfony\Bridge\Monolog\Handler\ChromePhpHandler";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1580;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1580;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1581;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1581;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1582;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1582;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1583;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1583;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18350080;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1602;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1823;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18874368;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1824;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1824;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:18874368;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1841;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1843;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19398656;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"kernel.terminate.loading";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1841;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1842;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19398656;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:22:"event_listener_loading";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1843;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1843;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:19398656;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1386552731147.699951171875;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":62:{a:2:{s:6:"memory";i:22282240;s:12:"memory_limit";i:134217728;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":106:{a:5:{s:7:"enabled";b:1;s:13:"authenticated";b:0;s:11:"token_class";N;s:4:"user";s:0:"";s:5:"roles";a:0:{}}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":263:{a:5:{s:7:"queries";a:1:{s:7:"default";a:0:{}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:0:{}}s:6:"errors";a:0:{}}}}s:2:"ip";s:9:"127.0.0.1";s:6:"method";s:3:"GET";s:3:"url";s:46:"http://ensat.graduate/app_dev.php/hello/sinass";s:4:"time";i:1386552732;}
