@@ -129,3 +129,7 @@ f5a191,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/css/green.css,13866
 a602d6,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/favicon.ico,1386623718,
 0be163,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/favicon.ico,1386623719,
 61a694,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/favicon.ico,1386623720,
+17e0d9,127.0.0.1,POST,http://ensat.graduate/app_dev.php/hello/sinass,1386634375,
+cfdad3,127.0.0.1,POST,http://ensat.graduate/app_dev.php/hello/sinass,1386634448,
+96beee,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/favicon.ico,1386634449,
+34bcca,127.0.0.1,GET,http://ensat.graduate/app_dev.php/hello/favicon.ico,1386634554,
