@@ -29,7 +29,7 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
     public function block_title($context, array $blocks = array())
     {
         // line 4
-        echo "Bonjour : sinass
+        echo "Bonjour : sinayoko
 ";
     }
 
