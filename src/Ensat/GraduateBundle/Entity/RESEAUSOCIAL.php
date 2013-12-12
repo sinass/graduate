@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * RESEAUSOCIAL
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Entity\RESEAUSOCIALRepository")
+ * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Repository\RESEAUSOCIALRepository")
  */
 class RESEAUSOCIAL
 {

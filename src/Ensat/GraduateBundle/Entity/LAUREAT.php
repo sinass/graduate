@@ -9,7 +9,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  * LAUREAT
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Entity\LAUREATRepository")
+ * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Repository\LAUREATRepository")
  */
 class LAUREAT
 {

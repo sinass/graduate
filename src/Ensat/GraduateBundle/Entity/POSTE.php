@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * POSTE
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Entity\POSTERepository")
+ * @ORM\Entity(repositoryClass="Ensat\GraduateBundle\Repository\POSTERepository")
  */
 class POSTE
 {

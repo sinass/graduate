@@ -12,6 +12,7 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
         $this->blocks = array(
             'title' => array($this, 'block_title'),
             'stylesheets' => array($this, 'block_stylesheets'),
+            'nav' => array($this, 'block_nav'),
             'container' => array($this, 'block_container'),
             'javascripts' => array($this, 'block_javascripts'),
         );
@@ -150,181 +151,11 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
 \t\t\t\t\t\t\t<a data-target=\".nav-collapse\" data-toggle=\"collapse\" class=\"btn_menu\">
 \t\t\t\t\t\t\t\t<span class=\"icon-align-justify icon-white\"></span>
 \t\t\t\t\t\t\t</a>
-                            <nav>
-                                <div class=\"nav-collapse\">
-                                    <ul class=\"nav\">
-                                        <li class=\"dropdown\">
-                                            <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"\"><i class=\"icon-list-alt icon-white\"></i> Forms <b class=\"caret\"></b></a>
-                                            <ul class=\"dropdown-menu\">
-                                                <li><a href=\"form_elements.html\">Form elements</a></li>
-                                                <li><a href=\"form_extended.html\">Extended form elements</a></li>
-                                                <li><a href=\"form_validation.html\">Form Validation</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class=\"dropdown\">
-                                            <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"\"><i class=\"icon-th icon-white\"></i> Components <b class=\"caret\"></b></a>
-                                            <ul class=\"dropdown-menu\">
-                                                <li><a href=\"alerts_btns.html\">Alerts & Buttons</a></li>
-                                                <li><a href=\"icons.html\">Icons</a></li>
-                                                <li><a href=\"notifications.html\">Notifications</a></li>
-                                                <li><a href=\"tables.html\">Tables</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"tables_more.html\">Tables (more examples)</a></li>
-                                                <li><a href=\"tabs_accordion.html\">Tabs & Accordion</a></li>
-                                                <li><a href=\"tooltips.html\">Tooltips, Popovers</a></li>
-                                                <li><a href=\"typography.html\">Typography</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"widgets.html\">Widget boxes</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"dropdown\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"\">Sub menu <b class=\"caret-right\"></b></a>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.1</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.2</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.3</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"\">Sub menu 1.4 <b class=\"caret-right\"></b></a>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.4.1</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.4.2</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Sub menu 1.4.3</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>
-\t\t\t\t\t\t\t\t\t\t\t\t</li>
-                                            </ul>
-                                        </li>
-                                        <li class=\"dropdown\">
-                                            <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"\"><i class=\"icon-wrench icon-white\"></i> Plugins <b class=\"caret\"></b></a>
-                                            <ul class=\"dropdown-menu\">
-                                                <li><a href=\"charts.html\">Charts</a></li>
-                                                <li><a href=\"calendar.html\">Calendar</a></li>
-                                                <li><a href=\"datatable.html\">Datatable</a></li>
-                                                <li><a href=\"file_manager.html\">File Manager</a></li>
-                                                <li><a href=\"floating_header.html\">Floating List Header</a></li>
-                                                <li><a href=\"google_maps.html\">Google Maps</a></li>
-                                                <li><a href=\"gallery.html\">Gallery Grid</a></li>
-                                                <li><a href=\"wizard.html\">Wizard</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class=\"dropdown\">
-                                            <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"\"><i class=\"icon-file icon-white\"></i> Pages <b class=\"caret\"></b></a>
-                                            <ul class=\"dropdown-menu\">
-                                                <li><a href=\"chat.html\">Chat</a></li>
-                                                <li><a href=\"error_404.html\">Error 404</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"mailbox.html\">Mailbox</a></li>
-                                                <li><a href=\"search_page.html\">Search page</a></li>
-                                                <li><a href=\"user_profile.html\">User profile</a></li>
-\t\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"user_static.html\">User profile (static)</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                        </li>
-                                        <li>
-                                            <a href=\"documentation.html\"><i class=\"icon-book icon-white\"></i> Help</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"modal hide fade\" id=\"myMail\">
-                    <div class=\"modal-header\">
-                        <button class=\"close\" data-dismiss=\"modal\">×</button>
-                        <h3>New messages</h3>
-                    </div>
-                    <div class=\"modal-body\">
-                        <div class=\"alert alert-info\">In this table jquery plugin turns a table row into a clickable link.</div>
-                        <table class=\"table table-condensed table-striped\" data-rowlink=\"a\">
-                            <thead>
-                                <tr>
-                                    <th>Sender</th>
-                                    <th>Subject</th>
-                                    <th>Date</th>
-                                    <th>Size</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Declan Pamphlett</td>
-                                    <td><a href=\"javascript:void(0)\">Lorem ipsum dolor sit amet</a></td>
-                                    <td>23/05/2012</td>
-                                    <td>25KB</td>
-                                </tr>
-                                <tr>
-                                    <td>Erin Church</td>
-                                    <td><a href=\"javascript:void(0)\">Lorem ipsum dolor sit amet</a></td>
-                                    <td>24/05/2012</td>
-                                    <td>15KB</td>
-                                </tr>
-                                <tr>
-                                    <td>Koby Auld</td>
-                                    <td><a href=\"javascript:void(0)\">Lorem ipsum dolor sit amet</a></td>
-                                    <td>25/05/2012</td>
-                                    <td>28KB</td>
-                                </tr>
-                                <tr>
-                                    <td>Anthony Pound</td>
-                                    <td><a href=\"javascript:void(0)\">Lorem ipsum dolor sit amet</a></td>
-                                    <td>25/05/2012</td>
-                                    <td>33KB</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class=\"modal-footer\">
-                        <a href=\"javascript:void(0)\" class=\"btn\">Go to mailbox</a>
-                    </div>
-                </div>
-                <div class=\"modal hide fade\" id=\"myTasks\">
-                    <div class=\"modal-header\">
-                        <button class=\"close\" data-dismiss=\"modal\">×</button>
-                        <h3>New Tasks</h3>
-                    </div>
-                    <div class=\"modal-body\">
-                        <div class=\"alert alert-info\">In this table jquery plugin turns a table row into a clickable link.</div>
-                        <table class=\"table table-condensed table-striped\" data-rowlink=\"a\">
-                            <thead>
-                                <tr>
-                                    <th>id</th>
-                                    <th>Summary</th>
-                                    <th>Updated</th>
-                                    <th>Priority</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>P-23</td>
-                                    <td><a href=\"javascript:void(0)\">Admin should not break if URL&hellip;</a></td>
-                                    <td>23/05/2012</td>
-                                    <td class=\"tac\"><span class=\"label label-important\">High</span></td>
-                                    <td>Open</td>
-                                </tr>
-                                <tr>
-                                    <td>P-18</td>
-                                    <td><a href=\"javascript:void(0)\">Displaying submenus in custom&hellip;</a></td>
-                                    <td>22/05/2012</td>
-                                    <td class=\"tac\"><span class=\"label label-warning\">Medium</span></td>
-                                    <td>Reopen</td>
-                                </tr>
-                                <tr>
-                                    <td>P-25</td>
-                                    <td><a href=\"javascript:void(0)\">Featured image on post types&hellip;</a></td>
-                                    <td>22/05/2012</td>
-                                    <td class=\"tac\"><span class=\"label label-success\">Low</span></td>
-                                    <td>Updated</td>
-                                </tr>
-                                <tr>
-                                    <td>P-10</td>
-                                    <td><a href=\"javascript:void(0)\">Multiple feed fixes and&hellip;</a></td>
-                                    <td>17/05/2012</td>
-                                    <td class=\"tac\"><span class=\"label label-warning\">Medium</span></td>
-                                    <td>Open</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class=\"modal-footer\">
-                        <a href=\"javascript:void(0)\" class=\"btn\">Go to task manager</a>
+                            ";
+        // line 150
+        $this->displayBlock('nav', $context, $blocks);
+        // line 152
+        echo "                        </div>
                     </div>
                 </div>
             </header>
@@ -333,9 +164,9 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
             <div id=\"contentwrapper\">
                 <div class=\"main_content\">
                 \t";
-        // line 332
+        // line 160
         $this->displayBlock('container', $context, $blocks);
-        // line 334
+        // line 162
         echo "                </div>
             </div>
             
@@ -515,9 +346,9 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
 \t\t
 \t\t</div>
 \t\t";
-        // line 512
+        // line 340
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 554
+        // line 382
         echo "\t</body>
 </html>";
     }
@@ -598,102 +429,109 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
         ";
     }
 
-    // line 332
+    // line 150
+    public function block_nav($context, array $blocks = array())
+    {
+        // line 151
+        echo "                            ";
+    }
+
+    // line 160
     public function block_container($context, array $blocks = array())
     {
-        // line 333
+        // line 161
         echo "                \t";
     }
 
-    // line 512
+    // line 340
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 513
+        // line 341
         echo "            
             <script src=\"";
-        // line 514
+        // line 342
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- smart resize event -->
 \t\t\t<script src=\"";
-        // line 516
+        // line 344
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.debouncedresize.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- hidden elements width/height -->
 \t\t\t<script src=\"";
-        // line 518
+        // line 346
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.actual.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- js cookie plugin -->
 \t\t\t<script src=\"";
-        // line 520
+        // line 348
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.cookie.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- main bootstrap js -->
 \t\t\t<script src=\"";
-        // line 522
+        // line 350
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/bootstrap/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- tooltips -->
 \t\t\t<script src=\"";
-        // line 524
+        // line 352
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- jBreadcrumbs -->
 \t\t\t<script src=\"";
-        // line 526
+        // line 354
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- lightbox -->
             <script src=\"";
-        // line 528
+        // line 356
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/colorbox/jquery.colorbox.min.js"), "html", null, true);
         echo "\"></script>
             <!-- fix for ios orientation change -->
 \t\t\t<script src=\"";
-        // line 530
+        // line 358
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/ios-orientationchange-fix.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- scrollbar -->
 \t\t\t<script src=\"";
-        // line 532
+        // line 360
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/antiscroll/antiscroll.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<script src=\"";
-        // line 533
+        // line 361
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/antiscroll/jquery-mousewheel.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- common functions -->
 \t\t\t<script src=\"";
-        // line 535
+        // line 363
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/gebo_common.js"), "html", null, true);
         echo "\"></script>
 \t\t\t
 \t\t\t<script src=\"";
-        // line 537
+        // line 365
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/jquery-ui/jquery-ui-1.8.20.custom.min.js"), "html", null, true);
         echo "\"></script>
             <!-- touch events for jquery ui-->
             <script src=\"";
-        // line 539
+        // line 367
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/forms/jquery.ui.touch-punch.min.js"), "html", null, true);
         echo "\"></script>
             <!-- multi-column layout -->
             <script src=\"";
-        // line 541
+        // line 369
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.imagesloaded.min.js"), "html", null, true);
         echo "\"></script>
             <script src=\"";
-        // line 542
+        // line 370
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.wookmark.js"), "html", null, true);
         echo "\"></script>
             <!-- responsive table -->
             <script src=\"";
-        // line 544
+        // line 372
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.mediaTable.min.js"), "html", null, true);
         echo "\"></script>
             <!--<script src=\"";
-        // line 545
+        // line 373
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/gebo_dashboard.js"), "html", null, true);
         echo "\"></script> -->
             <script>
@@ -718,6 +556,6 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
 
     public function getDebugInfo()
     {
-        return array (  697 => 545,  693 => 544,  688 => 542,  684 => 541,  679 => 539,  674 => 537,  669 => 535,  664 => 533,  660 => 532,  655 => 530,  650 => 528,  645 => 526,  640 => 524,  635 => 522,  630 => 520,  625 => 518,  620 => 516,  615 => 514,  612 => 513,  609 => 512,  605 => 333,  602 => 332,  593 => 32,  587 => 29,  582 => 27,  577 => 25,  572 => 23,  567 => 21,  562 => 19,  557 => 17,  552 => 15,  547 => 13,  542 => 11,  538 => 10,  535 => 9,  532 => 8,  526 => 6,  521 => 554,  519 => 512,  339 => 334,  337 => 332,  56 => 54,  37 => 37,  35 => 8,  30 => 6,  23 => 1,);
+        return array (  535 => 373,  531 => 372,  526 => 370,  522 => 369,  517 => 367,  512 => 365,  507 => 363,  502 => 361,  498 => 360,  493 => 358,  488 => 356,  483 => 354,  478 => 352,  473 => 350,  468 => 348,  463 => 346,  458 => 344,  453 => 342,  450 => 341,  447 => 340,  443 => 161,  440 => 160,  436 => 151,  433 => 150,  424 => 32,  418 => 29,  413 => 27,  408 => 25,  403 => 23,  398 => 21,  393 => 19,  388 => 17,  383 => 15,  378 => 13,  373 => 11,  369 => 10,  366 => 9,  363 => 8,  357 => 6,  352 => 382,  350 => 340,  170 => 162,  168 => 160,  158 => 152,  156 => 150,  57 => 54,  36 => 8,  31 => 6,  24 => 1,  51 => 12,  48 => 11,  41 => 8,  38 => 37,  33 => 4,  30 => 3,);
     }
 }
