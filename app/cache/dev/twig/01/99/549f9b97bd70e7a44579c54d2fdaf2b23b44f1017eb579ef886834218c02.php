@@ -38,9 +38,8 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
     public function block_container($context, array $blocks = array())
     {
         // line 8
-        echo "Hello ";
-        echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : $this->getContext($context, "name")), "html", null, true);
-        echo "!
+        echo twig_escape_filter($this->env, twig_length_filter($this->env, (isset($context["results"]) ? $context["results"] : $this->getContext($context, "results"))), "html", null, true);
+        echo "
 ";
     }
 
@@ -52,15 +51,32 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 \t<div class=\"nav-collapse\">
         <ul class=\"nav\">
             <li class=\"dropdown\">
-                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-list-alt icon-white\"></i> Forms <b class=\"caret\"></b></a>
-                <ul class=\"dropdown-menu\">
-                    <li><a href=\"form_elements.html\">Form elements</a></li>
-                    <li><a href=\"form_extended.html\">Extended form elements</a></li>
-                    <li><a href=\"form_validation.html\">Form Validation</a></li>
-                </ul>
+                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-list-alt icon-white\"></i> GINF <b class=\"caret\"></b></a>
+                ";
+        // line 17
+        $context['_parent'] = (array) $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_array_keys_filter((isset($context["results"]) ? $context["results"] : $this->getContext($context, "results"))));
+        foreach ($context['_seq'] as $context["_key"] => $context["key"]) {
+            if (((isset($context["key"]) ? $context["key"] : $this->getContext($context, "key")) == "GINF")) {
+                // line 18
+                echo "                \t
+                \t<ul class=\"dropdown-menu\">
+\t                \t";
+                // line 20
+                echo twig_escape_filter($this->env, (isset($context["key"]) ? $context["key"] : $this->getContext($context, "key")), "html", null, true);
+                echo "
+                \t</ul>
+                ";
+            }
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['key'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 23
+        echo "                
             </li>
             <li class=\"dropdown\">
-                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-th icon-white\"></i> Components <b class=\"caret\"></b></a>
+                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-th icon-white\"></i> GSTR <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     <li><a href=\"alerts_btns.html\">Alerts & Buttons</a></li>
                     <li><a href=\"icons.html\">Icons</a></li>
@@ -90,7 +106,7 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
                 </ul>
             </li>
             <li class=\"dropdown\">
-                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-wrench icon-white\"></i> Plugins <b class=\"caret\"></b></a>
+                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-wrench icon-white\"></i> GSEA <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     <li><a href=\"charts.html\">Charts</a></li>
                     <li><a href=\"calendar.html\">Calendar</a></li>
@@ -103,7 +119,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
                 </ul>
             </li>
             <li class=\"dropdown\">
-                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> Pages <b class=\"caret\"></b></a>
+                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GIND <b class=\"caret\"></b></a>
+                <ul class=\"dropdown-menu\">
+                    <li><a href=\"chat.html\">Chat</a></li>
+                    <li><a href=\"error_404.html\">Error 404</a></li>
+\t\t\t\t\t<li><a href=\"mailbox.html\">Mailbox</a></li>
+                    <li><a href=\"search_page.html\">Search page</a></li>
+                    <li><a href=\"user_profile.html\">User profile</a></li>
+\t\t\t\t\t<li><a href=\"user_static.html\">User profile (static)</a></li>
+                </ul>
+            </li>
+     \t\t<li class=\"dropdown\">
+                <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GEEEI <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     <li><a href=\"chat.html\">Chat</a></li>
                     <li><a href=\"error_404.html\">Error 404</a></li>
@@ -136,6 +163,6 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 
     public function getDebugInfo()
     {
-        return array (  51 => 12,  48 => 11,  41 => 8,  38 => 7,  33 => 4,  30 => 3,);
+        return array (  76 => 23,  66 => 20,  62 => 18,  57 => 17,  50 => 12,  47 => 11,  41 => 8,  38 => 7,  33 => 4,  30 => 3,);
     }
 }

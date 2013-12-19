@@ -1,0 +1,65 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>LAUREAT list</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Sexe</th>
+                <th>Nationalite</th>
+                <th>Cin</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Datenaissance</th>
+                <th>Fixe</th>
+                <th>Mobile</th>
+                <th>Residence</th>
+                <th>Email</th>
+                <th>Photo</th>
+                <th>Login</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('laureat_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.sexe }}</td>
+                <td>{{ entity.nationalite }}</td>
+                <td>{{ entity.cin }}</td>
+                <td>{{ entity.nom }}</td>
+                <td>{{ entity.prenom }}</td>
+                <td>{% if entity.datenaissance %}{{ entity.datenaissance|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ entity.fixe }}</td>
+                <td>{{ entity.mobile }}</td>
+                <td>{{ entity.residence }}</td>
+                <td>{{ entity.email }}</td>
+                <td>{{ entity.photo }}</td>
+                <td>{{ entity.login }}</td>
+                <td>{{ entity.password }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('laureat_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('laureat_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+        <li>
+            <a href="{{ path('laureat_new') }}">
+                Create a new entry
+            </a>
+        </li>
+    </ul>
+    {% endblock %}

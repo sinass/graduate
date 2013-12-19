@@ -166,7 +166,7 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
                 \t";
         // line 160
         $this->displayBlock('container', $context, $blocks);
-        // line 162
+        // line 163
         echo "                </div>
             </div>
             
@@ -346,9 +346,9 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
 \t\t
 \t\t</div>
 \t\t";
-        // line 340
+        // line 341
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 382
+        // line 383
         echo "\t</body>
 </html>";
     }
@@ -440,98 +440,99 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
     public function block_container($context, array $blocks = array())
     {
         // line 161
-        echo "                \t";
+        echo "                \t
+                \t";
     }
 
-    // line 340
+    // line 341
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 341
+        // line 342
         echo "            
             <script src=\"";
-        // line 342
+        // line 343
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- smart resize event -->
 \t\t\t<script src=\"";
-        // line 344
+        // line 345
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.debouncedresize.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- hidden elements width/height -->
 \t\t\t<script src=\"";
-        // line 346
+        // line 347
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.actual.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- js cookie plugin -->
 \t\t\t<script src=\"";
-        // line 348
+        // line 349
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.cookie.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- main bootstrap js -->
 \t\t\t<script src=\"";
-        // line 350
+        // line 351
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/bootstrap/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- tooltips -->
 \t\t\t<script src=\"";
-        // line 352
+        // line 353
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/qtip2/jquery.qtip.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- jBreadcrumbs -->
 \t\t\t<script src=\"";
-        // line 354
+        // line 355
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- lightbox -->
             <script src=\"";
-        // line 356
+        // line 357
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/colorbox/jquery.colorbox.min.js"), "html", null, true);
         echo "\"></script>
             <!-- fix for ios orientation change -->
 \t\t\t<script src=\"";
-        // line 358
+        // line 359
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/ios-orientationchange-fix.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- scrollbar -->
 \t\t\t<script src=\"";
-        // line 360
+        // line 361
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/antiscroll/antiscroll.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<script src=\"";
-        // line 361
+        // line 362
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/antiscroll/jquery-mousewheel.js"), "html", null, true);
         echo "\"></script>
 \t\t\t<!-- common functions -->
 \t\t\t<script src=\"";
-        // line 363
+        // line 364
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/gebo_common.js"), "html", null, true);
         echo "\"></script>
 \t\t\t
 \t\t\t<script src=\"";
-        // line 365
+        // line 366
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/lib/jquery-ui/jquery-ui-1.8.20.custom.min.js"), "html", null, true);
         echo "\"></script>
             <!-- touch events for jquery ui-->
             <script src=\"";
-        // line 367
+        // line 368
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/forms/jquery.ui.touch-punch.min.js"), "html", null, true);
         echo "\"></script>
             <!-- multi-column layout -->
             <script src=\"";
-        // line 369
+        // line 370
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.imagesloaded.min.js"), "html", null, true);
         echo "\"></script>
             <script src=\"";
-        // line 370
+        // line 371
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.wookmark.js"), "html", null, true);
         echo "\"></script>
             <!-- responsive table -->
             <script src=\"";
-        // line 372
+        // line 373
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/jquery.mediaTable.min.js"), "html", null, true);
         echo "\"></script>
             <!--<script src=\"";
-        // line 373
+        // line 374
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/js/gebo_dashboard.js"), "html", null, true);
         echo "\"></script> -->
             <script>
@@ -556,6 +557,6 @@ class __TwigTemplate_c976fbf548d55337e0847ef882f0dab17611349c557436dc2561270c363
 
     public function getDebugInfo()
     {
-        return array (  535 => 373,  531 => 372,  526 => 370,  522 => 369,  517 => 367,  512 => 365,  507 => 363,  502 => 361,  498 => 360,  493 => 358,  488 => 356,  483 => 354,  478 => 352,  473 => 350,  468 => 348,  463 => 346,  458 => 344,  453 => 342,  450 => 341,  447 => 340,  443 => 161,  440 => 160,  436 => 151,  433 => 150,  424 => 32,  418 => 29,  413 => 27,  408 => 25,  403 => 23,  398 => 21,  393 => 19,  388 => 17,  383 => 15,  378 => 13,  373 => 11,  369 => 10,  366 => 9,  363 => 8,  357 => 6,  352 => 382,  350 => 340,  170 => 162,  168 => 160,  158 => 152,  156 => 150,  57 => 54,  36 => 8,  31 => 6,  24 => 1,  51 => 12,  48 => 11,  41 => 8,  38 => 37,  33 => 4,  30 => 3,);
+        return array (  536 => 374,  532 => 373,  527 => 371,  523 => 370,  518 => 368,  513 => 366,  508 => 364,  503 => 362,  499 => 361,  494 => 359,  489 => 357,  484 => 355,  479 => 353,  474 => 351,  469 => 349,  464 => 347,  459 => 345,  454 => 343,  451 => 342,  448 => 341,  443 => 161,  440 => 160,  436 => 151,  433 => 150,  424 => 32,  418 => 29,  413 => 27,  408 => 25,  403 => 23,  398 => 21,  393 => 19,  388 => 17,  383 => 15,  378 => 13,  373 => 11,  369 => 10,  366 => 9,  363 => 8,  357 => 6,  352 => 383,  350 => 341,  170 => 163,  168 => 160,  158 => 152,  156 => 150,  57 => 54,  38 => 37,  36 => 8,  31 => 6,  24 => 1,);
     }
 }
