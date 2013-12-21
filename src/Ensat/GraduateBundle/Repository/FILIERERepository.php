@@ -14,16 +14,16 @@ class FILIERERepository extends EntityRepository
 {
 	public function getAllFiliere(){
 		$qb = $this->createQueryBuilder('p')
-				   ->select('p.designation')
 				   ->groupBy('p.designation');
 	   	$query = $qb->getQuery();
 		return $query->getResult();
 	}
 	public function getPromotionByFiliere($filiere){
 		$qb = $this->createQueryBuilder('p')
-				   ->where('p.designation = :designation')
-				   ->setParameter('designation',$filiere)
-				   ->orderBy('p.promotion','DESC');
+				   ->where('p.designation = :nom')
+				   ->setParameter('nom',$filiere)
+				   ->orderBy('p.promotion','DESC')
+				   ;
 	   	$query = $qb->getQuery();
 		return $query->getResult();
 	}

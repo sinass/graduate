@@ -37,7 +37,7 @@ class FILIERE
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="promotion", type="date")
+     * @ORM\Column(name="promotion", type="integer")
      */
     private $promotion;
 	
@@ -83,7 +83,7 @@ class FILIERE
     /**
      * Set promotion
      *
-     * @param \DateTime $promotion
+     * @param integer  $promotion
      * @return FILIERE
      */
     public function setPromotion($promotion)
@@ -96,7 +96,7 @@ class FILIERE
     /**
      * Get promotion
      *
-     * @return \DateTime 
+     * @return integer  
      */
     public function getPromotion()
     {

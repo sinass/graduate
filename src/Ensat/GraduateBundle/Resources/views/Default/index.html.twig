@@ -1,11 +1,22 @@
-{% extends '::base.html.twig' %}
-
+{% extends 'EnsatGraduateBundle::layout.html.twig' %}
 {% block title %}
 Bonjour : sinayoko
 {% endblock %}
 
 {% block container%}
-{{results|length}}
+
+<div class="row-fluid">
+	<div class="span12">
+		<ul class="dshb_icoNav tac">
+			<li><a href="javascript:void(0)" style="background-image: url({{ asset('bundles/ensatgraduate/images/gCons/multi-agents.png')}})"> Promotion</a></li>
+			<li><a href="javascript:void(0)" style="background-image: url({{ asset('bundles/ensatgraduate/images/gCons/world.png')}})">Event</a></li>
+			<li><a href="javascript:void(0)" style="background-image: url({{ asset('bundles/ensatgraduate/images/gCons/pie-chart.png')}})">Charts</a></li>
+			<li><a href="javascript:void(0)" style="background-image: url({{ asset('bundles/ensatgraduate/images/gCons/lab.png')}})">Import</a>
+			<li><a href="javascript:void(0)" style="background-image: url({{ asset('bundles/ensatgraduate/images/gCons/van.png')}})"> Export</a></li>
+		</ul>
+	</div>
+</div>
+
 {% endblock %}
 
 {% block nav %}
@@ -14,77 +25,42 @@ Bonjour : sinayoko
         <ul class="nav">
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-list-alt icon-white"></i> GINF <b class="caret"></b></a>
-                {% for key in results|keys if key == 'GINF'%}
-                	
                 	<ul class="dropdown-menu">
-	                	{{key}}
-                	</ul>
-                {% endfor %}
-                
+                	{% for promotion in ginf  %}
+	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
+                	{% endfor %}
+                	</ul>                               
             </li>
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th icon-white"></i> GSTR <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="alerts_btns.html">Alerts & Buttons</a></li>
-                    <li><a href="icons.html">Icons</a></li>
-                    <li><a href="notifications.html">Notifications</a></li>
-                    <li><a href="tables.html">Tables</a></li>
-					<li><a href="tables_more.html">Tables (more examples)</a></li>
-                    <li><a href="tabs_accordion.html">Tabs & Accordion</a></li>
-                    <li><a href="tooltips.html">Tooltips, Popovers</a></li>
-                    <li><a href="typography.html">Typography</a></li>
-					<li><a href="widgets.html">Widget boxes</a></li>
-					<li class="dropdown">
-						<a href="#">Sub menu <b class="caret-right"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Sub menu 1.1</a></li>
-							<li><a href="#">Sub menu 1.2</a></li>
-							<li><a href="#">Sub menu 1.3</a></li>
-							<li>
-								<a href="#">Sub menu 1.4 <b class="caret-right"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Sub menu 1.4.1</a></li>
-									<li><a href="#">Sub menu 1.4.2</a></li>
-									<li><a href="#">Sub menu 1.4.3</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
+                    {% for promotion in gstr  %}
+	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
+                	{% endfor %}
                 </ul>
             </li>
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-wrench icon-white"></i> GSEA <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="charts.html">Charts</a></li>
-                    <li><a href="calendar.html">Calendar</a></li>
-                    <li><a href="datatable.html">Datatable</a></li>
-                    <li><a href="file_manager.html">File Manager</a></li>
-                    <li><a href="floating_header.html">Floating List Header</a></li>
-                    <li><a href="google_maps.html">Google Maps</a></li>
-                    <li><a href="gallery.html">Gallery Grid</a></li>
-                    <li><a href="wizard.html">Wizard</a></li>
+                    {% for promotion in gsea  %}
+	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
+                	{% endfor %}
                 </ul>
             </li>
             <li class="dropdown">
-                <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-file icon-white"></i> GIND <b class="caret"></b></a>
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-file icon-white"></i> GIND<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="chat.html">Chat</a></li>
-                    <li><a href="error_404.html">Error 404</a></li>
-					<li><a href="mailbox.html">Mailbox</a></li>
-                    <li><a href="search_page.html">Search page</a></li>
-                    <li><a href="user_profile.html">User profile</a></li>
-					<li><a href="user_static.html">User profile (static)</a></li>
+                    {% for promotion in gind  %}
+	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
+                	{% endfor %}
                 </ul>
             </li>
      		<li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-file icon-white"></i> GEEEI <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="chat.html">Chat</a></li>
-                    <li><a href="error_404.html">Error 404</a></li>
-					<li><a href="mailbox.html">Mailbox</a></li>
-                    <li><a href="search_page.html">Search page</a></li>
-                    <li><a href="user_profile.html">User profile</a></li>
-					<li><a href="user_static.html">User profile (static)</a></li>
+                    {% for promotion in geeei  %}
+	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
+                	{% endfor %}
                 </ul>
             </li>
             <li>

@@ -17,13 +17,20 @@ class DefaultController extends Controller
     {
     	$em = $this->getDoctrine()->getEntityManager();
 		$filieres = $em->getRepository('EnsatGraduateBundle:filiere')->getAllFiliere();
-		/*$results = array();
-		foreach($filieres as $filiere){
-			array_push($results,$filiere,$em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere($filiere));
-		}
-		 * 
-		 */
-        return array('results' => $filieres);
+		$ginf = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GINF");
+		$gind = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GIND");
+		$gsea = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GSEA");
+		$gstr = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GSTR");
+		$geeei = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GEEEI");
+		
+		return array('ginf' => $ginf,
+					'gind' => $gind,
+					'gstr' => $gstr,
+					'gsea' => $gsea,
+					'geeei' => $geeei
+					);
+
+        
     }
 	
 }
