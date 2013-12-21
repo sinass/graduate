@@ -23,12 +23,15 @@ class DefaultController extends Controller
 		$gstr = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GSTR");
 		$geeei = $em->getRepository('EnsatGraduateBundle:filiere')->getPromotionByFiliere("GEEEI");
 		
-		return array('ginf' => $ginf,
-					'gind' => $gind,
-					'gstr' => $gstr,
-					'gsea' => $gsea,
-					'geeei' => $geeei
-					);
+		$session = $this->getRequest()->getSession();
+		$session->set("ginf",$ginf);
+		$session->set("gind",$gind);
+		$session->set("gstr",$gstr);
+		$session->set("gsea",$gsea);
+		$session->set("geeei",$geeei);
+		
+		return ;
+					
 
         
     }

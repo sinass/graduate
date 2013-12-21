@@ -1,9 +1,9 @@
 {% extends 'EnsatGraduateBundle::layout.html.twig' %}
 {% block title %}
-Bonjour : sinayoko
+Gestion des laureats
 {% endblock %}
 
-{% block container%}
+{% block container_nav %}
 
 <div class="row-fluid">
 	<div class="span12">
@@ -19,6 +19,11 @@ Bonjour : sinayoko
 
 {% endblock %}
 
+{% block container%}
+
+
+{% endblock %}
+
 {% block nav %}
 <nav>
 	<div class="nav-collapse">
@@ -26,7 +31,7 @@ Bonjour : sinayoko
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-list-alt icon-white"></i> GINF <b class="caret"></b></a>
                 	<ul class="dropdown-menu">
-                	{% for promotion in ginf  %}
+                	{% for promotion in app.session.get('ginf')  %}
 	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
                 	{% endfor %}
                 	</ul>                               
@@ -34,7 +39,7 @@ Bonjour : sinayoko
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th icon-white"></i> GSTR <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    {% for promotion in gstr  %}
+                    {% for promotion in app.session.get('gstr')  %}
 	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
                 	{% endfor %}
                 </ul>
@@ -42,7 +47,7 @@ Bonjour : sinayoko
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-wrench icon-white"></i> GSEA <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    {% for promotion in gsea  %}
+                    {% for promotion in app.session.get('gsea')  %}
 	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
                 	{% endfor %}
                 </ul>
@@ -50,7 +55,7 @@ Bonjour : sinayoko
             <li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-file icon-white"></i> GIND<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    {% for promotion in gind  %}
+                    {% for promotion in app.session.get('gind')  %}
 	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
                 	{% endfor %}
                 </ul>
@@ -58,7 +63,7 @@ Bonjour : sinayoko
      		<li class="dropdown">
                 <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-file icon-white"></i> GEEEI <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    {% for promotion in geeei  %}
+                    {% for promotion in app.session.get('geeei')  %}
 	                	<li><a href="#">promotion {{promotion.promotion}}</a></li>
                 	{% endfor %}
                 </ul>
