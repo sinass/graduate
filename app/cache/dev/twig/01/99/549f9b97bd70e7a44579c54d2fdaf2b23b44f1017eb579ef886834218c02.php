@@ -12,7 +12,6 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $this->blocks = array(
             'title' => array($this, 'block_title'),
             'container_nav' => array($this, 'block_container_nav'),
-            'container' => array($this, 'block_container'),
             'nav' => array($this, 'block_nav'),
         );
     }
@@ -54,13 +53,21 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
         // line 13
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
-        echo ")\">Charts</a></li>
+        echo ")\">Secteur</a></li>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
         // line 14
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
+        echo ")\">User</a></li>
+\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+        // line 15
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
+        echo ")\">Chart</a></li>
+\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+        // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/lab.png"), "html", null, true);
         echo ")\">Import</a>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
-        // line 15
+        // line 17
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/van.png"), "html", null, true);
         echo ")\"> Export</a></li>
 \t\t</ul>
@@ -70,19 +77,10 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 ";
     }
 
-    // line 22
-    public function block_container($context, array $blocks = array())
-    {
-        // line 23
-        echo "
-
-";
-    }
-
-    // line 27
+    // line 26
     public function block_nav($context, array $blocks = array())
     {
-        // line 28
+        // line 27
         echo "<nav>
 \t<div class=\"nav-collapse\">
         <ul class=\"nav\">
@@ -90,11 +88,11 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-list-alt icon-white\"></i> GINF <b class=\"caret\"></b></a>
                 \t<ul class=\"dropdown-menu\">
                 \t";
-        // line 34
+        // line 33
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "ginf"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 35
+            // line 34
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -103,18 +101,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 37
+        // line 36
         echo "                \t</ul>                               
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-th icon-white\"></i> GSTR <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 42
+        // line 41
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gstr"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 43
+            // line 42
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -123,18 +121,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 45
+        // line 44
         echo "                </ul>
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-wrench icon-white\"></i> GSEA <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 50
+        // line 49
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gsea"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 51
+            // line 50
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -143,18 +141,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 53
+        // line 52
         echo "                </ul>
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GIND<b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 58
+        // line 57
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gind"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 59
+            // line 58
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -163,18 +161,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 61
+        // line 60
         echo "                </ul>
             </li>
      \t\t<li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GEEEI <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 66
+        // line 65
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "geeei"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 67
+            // line 66
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -183,7 +181,7 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 69
+        // line 68
         echo "                </ul>
             </li>
             <li>
@@ -209,6 +207,6 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 
     public function getDebugInfo()
     {
-        return array (  187 => 69,  178 => 67,  174 => 66,  167 => 61,  158 => 59,  154 => 58,  147 => 53,  138 => 51,  134 => 50,  127 => 45,  118 => 43,  114 => 42,  107 => 37,  98 => 35,  94 => 34,  86 => 28,  83 => 27,  77 => 23,  74 => 22,  64 => 15,  60 => 14,  56 => 13,  52 => 12,  48 => 11,  42 => 7,  39 => 6,  34 => 3,  31 => 2,);
+        return array (  185 => 68,  176 => 66,  172 => 65,  165 => 60,  156 => 58,  152 => 57,  145 => 52,  136 => 50,  132 => 49,  125 => 44,  116 => 42,  112 => 41,  105 => 36,  96 => 34,  92 => 33,  84 => 27,  81 => 26,  71 => 17,  67 => 16,  63 => 15,  59 => 14,  55 => 13,  51 => 12,  47 => 11,  41 => 7,  38 => 6,  33 => 3,  30 => 2,  94 => 38,  90 => 37,  85 => 36,  82 => 35,  74 => 30,  65 => 27,  61 => 26,  58 => 25,  54 => 24,  32 => 4,  29 => 3,);
     }
 }

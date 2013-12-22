@@ -1,6 +1,6 @@
 <?php
 
-namespace Ensat\GraduateBundle\Entity;
+namespace Ensat\GraduateBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
