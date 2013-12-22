@@ -20,12 +20,47 @@ Secteurs
                 <thead>
                     <tr>
                         <th>Designation</th>
+                        <th >Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                 	{% for entity in entities %}
                     <tr>
                         <td>{{ entity.designation }}</td>
+                        <td class="center">
+                        	<a class="btn btn-info" href="#">
+								<i class="icon-edit icon-blue"></i>  
+								Edit                                            
+							</a>
+							<div class="modal hide fade" >
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">×</button>
+									<h3>Edit</h3>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal" action="">
+										<fieldset>
+											<div class="control-group">
+												<label class="control-label" for="designation">Designation</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="designation" type="text" value="{{ entity.designation }}">
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="form-actions">
+							  						<button type="submit" class="btn btn-primary">Save changes</button>
+							  						<button type="reset" class="btn" data-dismiss="modal">Cancel</button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<a class="btn btn-danger" href="{{ path('secteur_delete', { 'id': entity.id }) }}" >
+								<i class="icon-trash icon-red"></i>  
+								Delete                                            
+							</a>
+                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -37,4 +72,12 @@ Secteurs
  {{parent()}}
  <script src="{{ asset('bundles/ensatgraduate/lib/datatables/jquery.dataTables.min.js')}}"></script>
  <script src="{{ asset('bundles/ensatgraduate/js/gebo_datatables.js')}}"></script>
+ <script type="text/javascript">
+ 	$('document').ready(function() {
+	  $('a.btn-info').click(function (e) {
+          e.preventDefault();
+          $(this).next('div.modal').modal('show');
+           });
+		});
+ </script>
 {% endblock %}

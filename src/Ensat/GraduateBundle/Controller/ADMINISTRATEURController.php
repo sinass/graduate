@@ -99,30 +99,6 @@ class ADMINISTRATEURController extends Controller
         );
     }
 
-    /**
-     * Finds and displays a ADMINISTRATEUR entity.
-     *
-     * @Route("/{id}", name="administrateur_show")
-     * @Method("GET")
-     * @Template()
-     */
-    public function showAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('EnsatGraduateBundle:ADMINISTRATEUR')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find ADMINISTRATEUR entity.');
-        }
-
-        $deleteForm = $this->createDeleteForm($id);
-
-        return array(
-            'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        );
-    }
 
     /**
      * Displays a form to edit an existing ADMINISTRATEUR entity.
@@ -206,14 +182,12 @@ class ADMINISTRATEURController extends Controller
      * Deletes a ADMINISTRATEUR entity.
      *
      * @Route("/{id}", name="administrateur_delete")
-     * @Method("DELETE")
+     * @Method("GET")
      */
     public function deleteAction(Request $request, $id)
     {
-        $form = $this->createDeleteForm($id);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
+        
+        
             $em = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('EnsatGraduateBundle:ADMINISTRATEUR')->find($id);
 
@@ -223,7 +197,6 @@ class ADMINISTRATEURController extends Controller
 
             $em->remove($entity);
             $em->flush();
-        }
 
         return $this->redirect($this->generateUrl('administrateur'));
     }

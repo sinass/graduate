@@ -171,17 +171,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
             not_administrateur_new:
 
-            // administrateur_show
-            if (preg_match('#^/administrateur/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_administrateur_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'administrateur_show')), array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\ADMINISTRATEURController::showAction',));
-            }
-            not_administrateur_show:
-
             // administrateur_edit
             if (preg_match('#^/administrateur/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
@@ -206,8 +195,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
             // administrateur_delete
             if (preg_match('#^/administrateur/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
                     goto not_administrateur_delete;
                 }
 
@@ -218,8 +207,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         // ensat_graduate_default_index
-        if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'ensat_graduate_default_index')), array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\DefaultController::indexAction',));
+        if ($pathinfo === '/home') {
+            return array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\DefaultController::indexAction',  '_route' => 'ensat_graduate_default_index',);
         }
 
         if (0 === strpos($pathinfo, '/evenement')) {
@@ -260,17 +249,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
             not_evenement_new:
 
-            // evenement_show
-            if (preg_match('#^/evenement/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_evenement_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'evenement_show')), array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\EVENEMENTController::showAction',));
-            }
-            not_evenement_show:
-
             // evenement_edit
             if (preg_match('#^/evenement/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
@@ -295,8 +273,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
             // evenement_delete
             if (preg_match('#^/evenement/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
                     goto not_evenement_delete;
                 }
 
@@ -344,17 +322,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
             not_filiere_new:
 
-            // filiere_show
-            if (preg_match('#^/filiere/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_filiere_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'filiere_show')), array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\FILIEREController::showAction',));
-            }
-            not_filiere_show:
-
             // filiere_edit
             if (preg_match('#^/filiere/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
@@ -379,8 +346,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
             // filiere_delete
             if (preg_match('#^/filiere/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
                     goto not_filiere_delete;
                 }
 
@@ -680,17 +647,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
             not_secteur_new:
 
-            // secteur_show
-            if (preg_match('#^/secteur/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                    $allow = array_merge($allow, array('GET', 'HEAD'));
-                    goto not_secteur_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'secteur_show')), array (  '_controller' => 'Ensat\\GraduateBundle\\Controller\\SECTEURController::showAction',));
-            }
-            not_secteur_show:
-
             // secteur_edit
             if (preg_match('#^/secteur/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
                 if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
@@ -715,8 +671,8 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
             // secteur_delete
             if (preg_match('#^/secteur/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                if ($this->context->getMethod() != 'DELETE') {
-                    $allow[] = 'DELETE';
+                if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                    $allow = array_merge($allow, array('GET', 'HEAD'));
                     goto not_secteur_delete;
                 }
 

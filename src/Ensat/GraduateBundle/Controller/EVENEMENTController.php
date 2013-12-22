@@ -30,9 +30,11 @@ class EVENEMENTController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $entities = $em->getRepository('EnsatGraduateBundle:EVENEMENT')->findAll();
-
+		$deleteForm = $this->createDeleteForm();
+		
         return array(
             'entities' => $entities,
+            'delete_form' => $deleteForm->createView(),
         );
     }
     /**
@@ -99,30 +101,6 @@ class EVENEMENTController extends Controller
         );
     }
 
-    /**
-     * Finds and displays a EVENEMENT entity.
-     *
-     * @Route("/{id}", name="evenement_show")
-     * @Method("GET")
-     * @Template()
-     */
-    public function showAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('EnsatGraduateBundle:EVENEMENT')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find EVENEMENT entity.');
-        }
-
-        $deleteForm = $this->createDeleteForm($id);
-
-        return array(
-            'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        );
-    }
 
     /**
      * Displays a form to edit an existing EVENEMENT entity.
@@ -174,7 +152,7 @@ class EVENEMENTController extends Controller
      *
      * @Route("/{id}", name="evenement_update")
      * @Method("PUT")
-     * @Template("EnsatGraduateBundle:EVENEMENT:edit.html.twig")
+     * @Template("EnsatGraduateBundle:EVENEMENT:index.html.twig")
      */
     public function updateAction(Request $request, $id)
     {
@@ -206,15 +184,11 @@ class EVENEMENTController extends Controller
      * Deletes a EVENEMENT entity.
      *
      * @Route("/{id}", name="evenement_delete")
-     * @Method("DELETE")
+     * @Method("GET")
      */
     public function deleteAction(Request $request, $id)
     {
-        $form = $this->createDeleteForm($id);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
+        	$em = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('EnsatGraduateBundle:EVENEMENT')->find($id);
 
             if (!$entity) {
@@ -223,7 +197,6 @@ class EVENEMENTController extends Controller
 
             $em->remove($entity);
             $em->flush();
-        }
 
         return $this->redirect($this->generateUrl('evenement'));
     }
@@ -235,12 +208,9 @@ class EVENEMENTController extends Controller
      *
      * @return \Symfony\Component\Form\Form The form
      */
-    private function createDeleteForm($id)
+    private function createDeleteForm()
     {
         return $this->createFormBuilder()
-            ->setAction($this->generateUrl('evenement_delete', array('id' => $id)))
-            ->setMethod('DELETE')
-            ->add('submit', 'submit', array('label' => 'Delete'))
             ->getForm()
         ;
     }

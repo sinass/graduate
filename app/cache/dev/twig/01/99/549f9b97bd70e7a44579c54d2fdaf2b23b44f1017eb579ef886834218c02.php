@@ -42,20 +42,28 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 <div class=\"row-fluid\">
 \t<div class=\"span12\">
 \t\t<ul class=\"dshb_icoNav tac\">
-\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+\t\t\t<li><a href=\"";
         // line 11
+        echo $this->env->getExtension('routing')->getPath("filiere");
+        echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/multi-agents.png"), "html", null, true);
         echo ")\"> Promotion</a></li>
-\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+\t\t\t<li><a href=\"";
         // line 12
+        echo $this->env->getExtension('routing')->getPath("evenement");
+        echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/world.png"), "html", null, true);
         echo ")\">Event</a></li>
-\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+\t\t\t<li><a href=\"";
         // line 13
+        echo $this->env->getExtension('routing')->getPath("secteur");
+        echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
         echo ")\">Secteur</a></li>
-\t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
+\t\t\t<li><a href=\"";
         // line 14
+        echo $this->env->getExtension('routing')->getPath("administrateur");
+        echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
         echo ")\">User</a></li>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
@@ -207,6 +215,6 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 
     public function getDebugInfo()
     {
-        return array (  185 => 68,  176 => 66,  172 => 65,  165 => 60,  156 => 58,  152 => 57,  145 => 52,  136 => 50,  132 => 49,  125 => 44,  116 => 42,  112 => 41,  105 => 36,  96 => 34,  92 => 33,  84 => 27,  81 => 26,  71 => 17,  67 => 16,  63 => 15,  59 => 14,  55 => 13,  51 => 12,  47 => 11,  41 => 7,  38 => 6,  33 => 3,  30 => 2,  94 => 38,  90 => 37,  85 => 36,  82 => 35,  74 => 30,  65 => 27,  61 => 26,  58 => 25,  54 => 24,  32 => 4,  29 => 3,);
+        return array (  193 => 68,  184 => 66,  180 => 65,  173 => 60,  164 => 58,  160 => 57,  153 => 52,  144 => 50,  140 => 49,  133 => 44,  124 => 42,  120 => 41,  113 => 36,  104 => 34,  100 => 33,  92 => 27,  89 => 26,  79 => 17,  75 => 16,  71 => 15,  65 => 14,  59 => 13,  53 => 12,  47 => 11,  41 => 7,  38 => 6,  33 => 3,  30 => 2,);
     }
 }

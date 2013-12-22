@@ -10,10 +10,10 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/hello/{name}")
+     * @Route("/home")
      * @Template()
      */
-    public function indexAction($name)
+    public function indexAction()
     {
     	$em = $this->getDoctrine()->getEntityManager();
 		$filieres = $em->getRepository('EnsatGraduateBundle:filiere')->getAllFiliere();
@@ -30,7 +30,7 @@ class DefaultController extends Controller
 		$session->set("gsea",$gsea);
 		$session->set("geeei",$geeei);
 		
-		return ;
+		return $this->redirect($this->generateUrl('filiere'));
 					
 
         

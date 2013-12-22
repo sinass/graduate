@@ -26,6 +26,7 @@ Evènements
                         <th>Description</th>
                         <th>Date</th>
                         <th>Localisation</th>
+                        <th >Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,17 +36,107 @@ Evènements
                         <td>{{ entity.description }}</td>
                         <td>{% if entity.date %}{{ entity.date|date('Y-m-d H:i:s') }}{% endif %}</td>
                 		<td>{{ entity.localisation }}</td>
+                		<td class="center">
+                        	<a class="btn btn-info" href="#">
+								<i class="icon-edit icon-blue"></i>  
+								Edit                                            
+							</a>
+							<div class="modal hide fade" >
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">×</button>
+									<h3>Edit</h3>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal" action="">
+										<fieldset>
+											<div class="control-group">
+												<label class="control-label" for="intituler">Intitulé</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="intituler" type="text" value="{{ entity.intitule }}">
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="description">Description</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="description" type="text" value="{{ entity.description }}">
+												</div>
+											</div>
+											<div class="control-group">
+							  					<label class="control-label" for="date01">Date input</label>
+							  					<div class="controls">
+													<input type="text" class="input-xlarge datepicker" id="date01" value="{% if entity.date %}{{ entity.date|date('Y-m-d H:i:s') }}{% endif %}">
+							  					</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="localisation">Localisation</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="localisation" type="text" value="{{ entity.localisation }}">
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="form-actions">
+							  						<button type="submit" class="btn btn-primary">Save changes</button>
+							  						<button type="reset" class="btn" data-dismiss="modal">Cancel</button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<a class="btn btn-danger" href="{{ path('evenement_delete', { 'id': entity.id }) }}" >
+								<i class="icon-trash icon-red"></i>  
+								Delete                                            
+							</a>
+                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
         </div>
     </div>
+    
 {% endblock %}
+
+{% block stylesheets %}
+	{{parent()}}
+	<link rel="stylesheet" href="{{ asset('bundles/ensatgraduate/css/redmond/jquery-ui-1.10.3.custom.min.css')}}" />
+	<style>
+		/* css for timepicker */
+		.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+		.ui-timepicker-div dl { text-align: left; }
+		.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+		.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+		.ui-timepicker-div td { font-size: 90%; }
+		.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+		
+		.ui-timepicker-rtl{ direction: rtl; }
+		.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+		.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+		.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+	</style>
+{% endblock%}
+
 {% block javascripts %}
  {{parent()}}
  <script src="{{ asset('bundles/ensatgraduate/lib/datatables/jquery.dataTables.min.js')}}"></script>
  <script src="{{ asset('bundles/ensatgraduate/js/gebo_datatables.js')}}"></script>
+ <script src="{{ asset('bundles/ensatgraduate/js/jquery-ui-1.10.3.custom.min.js')}}"></script>
+ <script src="{{ asset('bundles/ensatgraduate/js/jquery-ui-timepicker.js')}}"></script>
+ <script type="text/javascript">
+ 	$('document').ready(function() {
+ 	  $('.datepicker').datetimepicker({
+			timeFormat: "hh:mm:ss tt"
+		});
+ 	  
+	  $('a.btn-info').click(function (e) {
+          e.preventDefault();
+          $(this).next('div.modal').modal('show');
+           });
+		});
+ </script>
 {% endblock %}
+
+
+
 
     

@@ -22,6 +22,7 @@ Utilisateurs
                     <tr>
                         <th>Login</th>
                         <th>Password</th>
+                        <th >Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -29,6 +30,46 @@ Utilisateurs
                     <tr>
                         <td>{{ entity.login }}</td>
                 		<td>{{ entity.password }}</td>
+                		<td class="center">
+                        	<a class="btn btn-info" href="#">
+								<i class="icon-edit icon-blue"></i>  
+								Edit                                            
+							</a>
+							<div class="modal hide fade" >
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">×</button>
+									<h3>Edit</h3>
+								</div>
+								<div class="modal-body">
+									<form class="form-horizontal" action="">
+										<fieldset>
+											<div class="control-group">
+												<label class="control-label" for="login">Login</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="login" type="text" value="{{ entity.login }}">
+												</div>
+											</div>
+											<div class="control-group">
+												<label class="control-label" for="password">Password</label>
+												<div class="controls">
+								  					<input class="input-xlarge focused" id="password" type="text" value="{{ entity.password }}">
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="form-actions">
+							  						<button type="submit" class="btn btn-primary">Save changes</button>
+							  						<button type="reset" class="btn" data-dismiss="modal">Cancel</button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<a class="btn btn-danger" href="{{ path('administrateur_delete', { 'id': entity.id }) }}" >
+								<i class="icon-trash icon-red"></i>  
+								Delete                                            
+							</a>
+                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -36,8 +77,17 @@ Utilisateurs
         </div>
     </div>
 {% endblock %}
+
 {% block javascripts %}
  {{parent()}}
  <script src="{{ asset('bundles/ensatgraduate/lib/datatables/jquery.dataTables.min.js')}}"></script>
  <script src="{{ asset('bundles/ensatgraduate/js/gebo_datatables.js')}}"></script>
+ <script type="text/javascript">
+ 	$('document').ready(function() {
+	  $('a.btn-info').click(function (e) {
+          e.preventDefault();
+          $(this).next('div.modal').modal('show');
+           });
+		});
+ </script>
 {% endblock %}

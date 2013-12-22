@@ -99,30 +99,6 @@ class FILIEREController extends Controller
         );
     }
 
-    /**
-     * Finds and displays a FILIERE entity.
-     *
-     * @Route("/{id}", name="filiere_show")
-     * @Method("GET")
-     * @Template()
-     */
-    public function showAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('EnsatGraduateBundle:FILIERE')->find($id);
-
-        if (!$entity) {
-            throw $this->createNotFoundException('Unable to find FILIERE entity.');
-        }
-
-        $deleteForm = $this->createDeleteForm($id);
-
-        return array(
-            'entity'      => $entity,
-            'delete_form' => $deleteForm->createView(),
-        );
-    }
 
     /**
      * Displays a form to edit an existing FILIERE entity.
@@ -206,15 +182,11 @@ class FILIEREController extends Controller
      * Deletes a FILIERE entity.
      *
      * @Route("/{id}", name="filiere_delete")
-     * @Method("DELETE")
+     * @Method("GET")
      */
     public function deleteAction(Request $request, $id)
     {
-        $form = $this->createDeleteForm($id);
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
+			$em = $this->getDoctrine()->getManager();
             $entity = $em->getRepository('EnsatGraduateBundle:FILIERE')->find($id);
 
             if (!$entity) {
@@ -223,8 +195,6 @@ class FILIEREController extends Controller
 
             $em->remove($entity);
             $em->flush();
-        }
-
         return $this->redirect($this->generateUrl('filiere'));
     }
 
