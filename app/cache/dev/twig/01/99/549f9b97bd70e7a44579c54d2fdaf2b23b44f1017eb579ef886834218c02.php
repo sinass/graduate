@@ -11,6 +11,7 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 
         $this->blocks = array(
             'title' => array($this, 'block_title'),
+            'loader' => array($this, 'block_loader'),
             'container_nav' => array($this, 'block_container_nav'),
             'nav' => array($this, 'block_nav'),
         );
@@ -35,47 +36,53 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
     }
 
     // line 6
+    public function block_loader($context, array $blocks = array())
+    {
+        echo "<div id=\"loading_layer\" style=\"display:none\"><img src=\"img/ajax_loader.gif\" alt=\"\" /></div>";
+    }
+
+    // line 8
     public function block_container_nav($context, array $blocks = array())
     {
-        // line 7
+        // line 9
         echo "
 <div class=\"row-fluid\">
 \t<div class=\"span12\">
 \t\t<ul class=\"dshb_icoNav tac\">
 \t\t\t<li><a href=\"";
-        // line 11
+        // line 13
         echo $this->env->getExtension('routing')->getPath("filiere");
         echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/multi-agents.png"), "html", null, true);
         echo ")\"> Promotion</a></li>
 \t\t\t<li><a href=\"";
-        // line 12
+        // line 14
         echo $this->env->getExtension('routing')->getPath("evenement");
         echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/world.png"), "html", null, true);
         echo ")\">Event</a></li>
 \t\t\t<li><a href=\"";
-        // line 13
+        // line 15
         echo $this->env->getExtension('routing')->getPath("secteur");
         echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
         echo ")\">Secteur</a></li>
 \t\t\t<li><a href=\"";
-        // line 14
+        // line 16
         echo $this->env->getExtension('routing')->getPath("administrateur");
         echo "\" style=\"background-image: url(";
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
         echo ")\">User</a></li>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
-        // line 15
+        // line 17
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/pie-chart.png"), "html", null, true);
         echo ")\">Chart</a></li>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
-        // line 16
+        // line 18
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/lab.png"), "html", null, true);
         echo ")\">Import</a>
 \t\t\t<li><a href=\"javascript:void(0)\" style=\"background-image: url(";
-        // line 17
+        // line 19
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/ensatgraduate/images/gCons/van.png"), "html", null, true);
         echo ")\"> Export</a></li>
 \t\t</ul>
@@ -85,10 +92,10 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 ";
     }
 
-    // line 26
+    // line 28
     public function block_nav($context, array $blocks = array())
     {
-        // line 27
+        // line 29
         echo "<nav>
 \t<div class=\"nav-collapse\">
         <ul class=\"nav\">
@@ -96,11 +103,11 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-list-alt icon-white\"></i> GINF <b class=\"caret\"></b></a>
                 \t<ul class=\"dropdown-menu\">
                 \t";
-        // line 33
+        // line 35
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "ginf"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 34
+            // line 36
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -109,18 +116,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 36
+        // line 38
         echo "                \t</ul>                               
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-th icon-white\"></i> GSTR <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 41
+        // line 43
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gstr"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 42
+            // line 44
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -129,18 +136,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 44
+        // line 46
         echo "                </ul>
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-wrench icon-white\"></i> GSEA <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 49
+        // line 51
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gsea"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 50
+            // line 52
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -149,18 +156,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 52
+        // line 54
         echo "                </ul>
             </li>
             <li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GIND<b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 57
+        // line 59
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "gind"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 58
+            // line 60
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -169,18 +176,18 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 60
+        // line 62
         echo "                </ul>
             </li>
      \t\t<li class=\"dropdown\">
                 <a data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\"><i class=\"icon-file icon-white\"></i> GEEEI <b class=\"caret\"></b></a>
                 <ul class=\"dropdown-menu\">
                     ";
-        // line 65
+        // line 67
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "session"), "get", array(0 => "geeei"), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["promotion"]) {
-            // line 66
+            // line 68
             echo "\t                \t<li><a href=\"#\">promotion ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["promotion"]) ? $context["promotion"] : $this->getContext($context, "promotion")), "promotion"), "html", null, true);
             echo "</a></li>
@@ -189,7 +196,7 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['promotion'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 68
+        // line 70
         echo "                </ul>
             </li>
             <li>
@@ -215,6 +222,6 @@ class __TwigTemplate_0199549f9b97bd70e7a44579c54d2fdaf2b23b44f1017eb579ef8868342
 
     public function getDebugInfo()
     {
-        return array (  193 => 68,  184 => 66,  180 => 65,  173 => 60,  164 => 58,  160 => 57,  153 => 52,  144 => 50,  140 => 49,  133 => 44,  124 => 42,  120 => 41,  113 => 36,  104 => 34,  100 => 33,  92 => 27,  89 => 26,  79 => 17,  75 => 16,  71 => 15,  65 => 14,  59 => 13,  53 => 12,  47 => 11,  41 => 7,  38 => 6,  33 => 3,  30 => 2,);
+        return array (  200 => 70,  191 => 68,  187 => 67,  180 => 62,  171 => 60,  167 => 59,  160 => 54,  151 => 52,  147 => 51,  140 => 46,  131 => 44,  127 => 43,  120 => 38,  111 => 36,  107 => 35,  99 => 29,  96 => 28,  86 => 19,  82 => 18,  78 => 17,  66 => 15,  60 => 14,  54 => 13,  48 => 9,  45 => 8,  186 => 105,  182 => 104,  178 => 103,  173 => 102,  170 => 101,  164 => 98,  159 => 97,  156 => 96,  148 => 90,  135 => 83,  98 => 49,  76 => 32,  72 => 16,  69 => 30,  65 => 29,  42 => 8,  39 => 6,  34 => 3,  31 => 2,);
     }
 }
